@@ -1,0 +1,4468 @@
+{
+  "timelineObjects" : [ {
+    "activitySegment" : {
+      "startLocation" : {
+        "latitudeE7" : 491494063,
+        "longitudeE7" : -1227803025,
+        "sourceInfo" : {
+          "deviceTag" : -279795187
+        }
+      },
+      "endLocation" : {
+        "latitudeE7" : 491568556,
+        "longitudeE7" : -1227792104,
+        "sourceInfo" : {
+          "deviceTag" : -279795187
+        }
+      },
+      "duration" : {
+        "startTimestampMs" : "1604197263728",
+        "endTimestampMs" : "1604199660866"
+      },
+      "distance" : 3453,
+      "activityType" : "IN_PASSENGER_VEHICLE",
+      "confidence" : "HIGH",
+      "activities" : [ {
+        "activityType" : "IN_PASSENGER_VEHICLE",
+        "probability" : 95.14445066452026
+      }, {
+        "activityType" : "WALKING",
+        "probability" : 1.4518162235617638
+      }, {
+        "activityType" : "STILL",
+        "probability" : 1.4355453662574291
+      }, {
+        "activityType" : "MOTORCYCLING",
+        "probability" : 0.8054249919950962
+      }, {
+        "activityType" : "CYCLING",
+        "probability" : 0.7402153220027685
+      }, {
+        "activityType" : "IN_BUS",
+        "probability" : 0.19063903018832207
+      }, {
+        "activityType" : "IN_FERRY",
+        "probability" : 0.11106985621154308
+      }, {
+        "activityType" : "RUNNING",
+        "probability" : 0.06649296847172081
+      }, {
+        "activityType" : "FLYING",
+        "probability" : 0.02501929411664605
+      }, {
+        "activityType" : "SKIING",
+        "probability" : 0.011359845666447654
+      }, {
+        "activityType" : "IN_TRAIN",
+        "probability" : 0.008585447358200327
+      }, {
+        "activityType" : "SAILING",
+        "probability" : 0.00606814501225017
+      }, {
+        "activityType" : "IN_TRAM",
+        "probability" : 0.002567589035606943
+      }, {
+        "activityType" : "IN_SUBWAY",
+        "probability" : 7.307244231924415E-4
+      }, {
+        "activityType" : "IN_VEHICLE",
+        "probability" : 1.8053779626825417E-5
+      } ],
+      "waypointPath" : {
+        "waypoints" : [ {
+          "latE7" : 491494064,
+          "lngE7" : -1227803192
+        }, {
+          "latE7" : 491519165,
+          "lngE7" : -1227787780
+        }, {
+          "latE7" : 491555404,
+          "lngE7" : -1228025131
+        }, {
+          "latE7" : 491571540,
+          "lngE7" : -1227790145
+        }, {
+          "latE7" : 491568603,
+          "lngE7" : -1227790069
+        } ]
+      },
+      "simplifiedRawPath" : {
+        "points" : [ {
+          "latE7" : 491555138,
+          "lngE7" : -1228025131,
+          "timestampMs" : "1604197563881",
+          "accuracyMeters" : 32
+        } ]
+      },
+      "parkingEvent" : {
+        "timestampMs" : "1604199670167",
+        "location" : {
+          "latitudeE7" : 491568562,
+          "longitudeE7" : -1227792165,
+          "accuracyMetres" : 72
+        }
+      }
+    }
+  }, {
+    "placeVisit" : {
+      "location" : {
+        "latitudeE7" : 491568373,
+        "longitudeE7" : -1227791648,
+        "placeId" : "ChIJax3EzLHQhVQR-21MoepnHes",
+        "address" : "15988 Fraser Hwy #101\nSurrey, BC V4N 0X8\nCanada",
+        "name" : "Sunny Dragon korean and Japanese Restaurant",
+        "sourceInfo" : {
+          "deviceTag" : -279795187
+        },
+        "locationConfidence" : 95.45085
+      },
+      "duration" : {
+        "startTimestampMs" : "1604199660866",
+        "endTimestampMs" : "1604201192864"
+      },
+      "placeConfidence" : "HIGH_CONFIDENCE",
+      "centerLatE7" : 491568712,
+      "centerLngE7" : -1227793463,
+      "visitConfidence" : 96,
+      "otherCandidateLocations" : [ {
+        "latitudeE7" : 491568193,
+        "longitudeE7" : -1227793564,
+        "placeId" : "ChIJVQREKrDQhVQRUYhmdE2V0TQ",
+        "locationConfidence" : 1.8225849
+      }, {
+        "latitudeE7" : 491567427,
+        "longitudeE7" : -1227800220,
+        "placeId" : "ChIJax3EzLHQhVQRQMwsi3ZpZSY",
+        "locationConfidence" : 0.74787974
+      }, {
+        "latitudeE7" : 491568245,
+        "longitudeE7" : -1227794219,
+        "placeId" : "ChIJA1qTzLHQhVQR4lV4hKXpZG4",
+        "locationConfidence" : 0.37830397
+      }, {
+        "latitudeE7" : 491571720,
+        "longitudeE7" : -1227792350,
+        "placeId" : "ChIJ60MR07HQhVQRdi9uoUb21MU",
+        "locationConfidence" : 0.19829479
+      } ],
+      "editConfirmationStatus" : "NOT_CONFIRMED"
+    }
+  }, {
+    "activitySegment" : {
+      "startLocation" : {
+        "latitudeE7" : 491568454,
+        "longitudeE7" : -1227795134,
+        "sourceInfo" : {
+          "deviceTag" : -279795187
+        }
+      },
+      "endLocation" : {
+        "latitudeE7" : 491326090,
+        "longitudeE7" : -1226783474,
+        "sourceInfo" : {
+          "deviceTag" : -279795187
+        }
+      },
+      "duration" : {
+        "startTimestampMs" : "1604201192864",
+        "endTimestampMs" : "1604202442086"
+      },
+      "distance" : 9165,
+      "activityType" : "IN_PASSENGER_VEHICLE",
+      "confidence" : "HIGH",
+      "activities" : [ {
+        "activityType" : "IN_PASSENGER_VEHICLE",
+        "probability" : 97.34155535697937
+      }, {
+        "activityType" : "MOTORCYCLING",
+        "probability" : 0.7697104010730982
+      }, {
+        "activityType" : "WALKING",
+        "probability" : 0.738749373704195
+      }, {
+        "activityType" : "STILL",
+        "probability" : 0.5990860518068075
+      }, {
+        "activityType" : "CYCLING",
+        "probability" : 0.3618830116465688
+      }, {
+        "activityType" : "IN_BUS",
+        "probability" : 0.11796534527093172
+      }, {
+        "activityType" : "RUNNING",
+        "probability" : 0.03627922560553998
+      }, {
+        "activityType" : "IN_FERRY",
+        "probability" : 0.01555580529384315
+      }, {
+        "activityType" : "FLYING",
+        "probability" : 0.00891304443939589
+      }, {
+        "activityType" : "IN_TRAIN",
+        "probability" : 0.005870750828762539
+      }, {
+        "activityType" : "SKIING",
+        "probability" : 0.002044009670498781
+      }, {
+        "activityType" : "IN_TRAM",
+        "probability" : 8.442731086688582E-4
+      }, {
+        "activityType" : "SAILING",
+        "probability" : 7.889302651165053E-4
+      }, {
+        "activityType" : "IN_SUBWAY",
+        "probability" : 6.582090918527683E-4
+      }, {
+        "activityType" : "IN_VEHICLE",
+        "probability" : 8.992204243440938E-5
+      } ],
+      "waypointPath" : {
+        "waypoints" : [ {
+          "latE7" : 491568565,
+          "lngE7" : -1227790069
+        }, {
+          "latE7" : 491519203,
+          "lngE7" : -1227789459
+        }, {
+          "latE7" : 491482467,
+          "lngE7" : -1227852706
+        }, {
+          "latE7" : 491374244,
+          "lngE7" : -1227333526
+        }, {
+          "latE7" : 491326332,
+          "lngE7" : -1226787872
+        } ]
+      },
+      "simplifiedRawPath" : {
+        "points" : [ {
+          "latE7" : 491484222,
+          "lngE7" : -1227854156,
+          "timestampMs" : "1604201382743",
+          "accuracyMeters" : 27
+        } ]
+      },
+      "parkingEvent" : {
+        "timestampMs" : "1604202672823",
+        "location" : {
+          "latitudeE7" : 491326100,
+          "longitudeE7" : -1226783389,
+          "accuracyMetres" : 75
+        }
+      }
+    }
+  }, {
+    "placeVisit" : {
+      "location" : {
+        "latitudeE7" : 491326435,
+        "longitudeE7" : -1226785506,
+        "placeId" : "ChIJIxJyfbbRhVQR8aKkoJrE7GM",
+        "address" : "7156 196a St\nLangley City, BC V2Y 2Z9\nCanada",
+        "name" : "7156 196a St",
+        "semanticType" : "TYPE_SEARCHED_ADDRESS",
+        "sourceInfo" : {
+          "deviceTag" : -279795187
+        },
+        "locationConfidence" : 91.00265
+      },
+      "duration" : {
+        "startTimestampMs" : "1604202442086",
+        "endTimestampMs" : "1604213736257"
+      },
+      "placeConfidence" : "HIGH_CONFIDENCE",
+      "centerLatE7" : 491325168,
+      "centerLngE7" : -1226783203,
+      "visitConfidence" : 83,
+      "otherCandidateLocations" : [ {
+        "latitudeE7" : 491335010,
+        "longitudeE7" : -1226788170,
+        "placeId" : "ChIJ3Y94kbbRhVQRfQ1MiAlV0-s",
+        "locationConfidence" : 0.30499226
+      }, {
+        "latitudeE7" : 491337030,
+        "longitudeE7" : -1226800660,
+        "placeId" : "ChIJiUJporbRhVQREVkCWb6AaNY",
+        "locationConfidence" : 0.15882283
+      }, {
+        "latitudeE7" : 491343359,
+        "longitudeE7" : -1226769494,
+        "placeId" : "ChIJ6yMq4LbRhVQRrIGl6qqjJec",
+        "locationConfidence" : 0.063183814
+      }, {
+        "latitudeE7" : 491311970,
+        "longitudeE7" : -1226820460,
+        "placeId" : "ChIJYUY6qrXRhVQRkNf0pRfNOwo",
+        "locationConfidence" : 0.043768708
+      } ],
+      "editConfirmationStatus" : "NOT_CONFIRMED"
+    }
+  }, {
+    "activitySegment" : {
+      "startLocation" : {
+        "latitudeE7" : 491319659,
+        "longitudeE7" : -1226780833,
+        "sourceInfo" : {
+          "deviceTag" : -279795187
+        }
+      },
+      "endLocation" : {
+        "latitudeE7" : 491494165,
+        "longitudeE7" : -1227802032,
+        "sourceInfo" : {
+          "deviceTag" : -279795187
+        }
+      },
+      "duration" : {
+        "startTimestampMs" : "1604213736257",
+        "endTimestampMs" : "1604215119167"
+      },
+      "distance" : 12789,
+      "activityType" : "IN_PASSENGER_VEHICLE",
+      "confidence" : "HIGH",
+      "activities" : [ {
+        "activityType" : "IN_PASSENGER_VEHICLE",
+        "probability" : 97.02811241149902
+      }, {
+        "activityType" : "MOTORCYCLING",
+        "probability" : 1.6679603606462479
+      }, {
+        "activityType" : "CYCLING",
+        "probability" : 0.7099712267518044
+      }, {
+        "activityType" : "WALKING",
+        "probability" : 0.29932616744190454
+      }, {
+        "activityType" : "STILL",
+        "probability" : 0.17205449985340238
+      }, {
+        "activityType" : "IN_BUS",
+        "probability" : 0.047996421926654875
+      }, {
+        "activityType" : "RUNNING",
+        "probability" : 0.02802925300784409
+      }, {
+        "activityType" : "IN_FERRY",
+        "probability" : 0.023142680583987385
+      }, {
+        "activityType" : "SKIING",
+        "probability" : 0.007360181916737929
+      }, {
+        "activityType" : "FLYING",
+        "probability" : 0.0073400042310822755
+      }, {
+        "activityType" : "IN_TRAIN",
+        "probability" : 0.0069869936851318926
+      }, {
+        "activityType" : "SAILING",
+        "probability" : 7.895516318967566E-4
+      }, {
+        "activityType" : "IN_TRAM",
+        "probability" : 6.102557108533802E-4
+      }, {
+        "activityType" : "IN_SUBWAY",
+        "probability" : 3.116321749985218E-4
+      }, {
+        "activityType" : "IN_VEHICLE",
+        "probability" : 2.704140200648908E-6
+      } ],
+      "waypointPath" : {
+        "waypoints" : [ {
+          "latE7" : 491319618,
+          "lngE7" : -1226777648
+        }, {
+          "latE7" : 491262207,
+          "lngE7" : -1227018814
+        }, {
+          "latE7" : 491494178,
+          "lngE7" : -1227803192
+        } ]
+      },
+      "parkingEvent" : {
+        "timestampMs" : "1604215119167",
+        "location" : {
+          "latitudeE7" : 491494165,
+          "longitudeE7" : -1227802032,
+          "accuracyMetres" : 29
+        }
+      }
+    }
+  }, {
+    "placeVisit" : {
+      "location" : {
+        "latitudeE7" : 491493149,
+        "longitudeE7" : -1227798615,
+        "placeId" : "ChIJ3x5UHKTQhVQRevn4yUfttvc",
+        "address" : "8036 159a St, Surrey, BC V4N 0K1, Canada",
+        "semanticType" : "TYPE_HOME",
+        "sourceInfo" : {
+          "deviceTag" : -279795187
+        },
+        "locationConfidence" : 93.816315
+      },
+      "duration" : {
+        "startTimestampMs" : "1604215119167",
+        "endTimestampMs" : "1604253142928"
+      },
+      "placeConfidence" : "HIGH_CONFIDENCE",
+      "centerLatE7" : 491493718,
+      "centerLngE7" : -1227797750,
+      "visitConfidence" : 92,
+      "otherCandidateLocations" : [ {
+        "latitudeE7" : 491493832,
+        "longitudeE7" : -1227795843,
+        "placeId" : "ChIJyy2hGqTQhVQRJU6dhbXpCAQ",
+        "semanticType" : "TYPE_SEARCHED_ADDRESS",
+        "locationConfidence" : 1.8437562
+      }, {
+        "latitudeE7" : 491490620,
+        "longitudeE7" : -1227800580,
+        "placeId" : "ChIJxXz5AqTQhVQRoegY1yO_Jgc",
+        "semanticType" : "TYPE_SEARCHED_ADDRESS",
+        "locationConfidence" : 1.7355922
+      }, {
+        "latitudeE7" : 491492123,
+        "longitudeE7" : -1227800055,
+        "placeId" : "ChIJ2ZxOA6TQhVQRbSHX9_rtKRI",
+        "semanticType" : "TYPE_SEARCHED_ADDRESS",
+        "locationConfidence" : 0.23504578
+      }, {
+        "latitudeE7" : 491480790,
+        "longitudeE7" : -1227831530,
+        "placeId" : "ChIJr8bTYqDQhVQRRzSgN3OQiV8",
+        "locationConfidence" : 0.11870228
+      } ],
+      "editConfirmationStatus" : "NOT_CONFIRMED"
+    }
+  }, {
+    "activitySegment" : {
+      "startLocation" : {
+        "latitudeE7" : 491493158,
+        "longitudeE7" : -1227803452,
+        "sourceInfo" : {
+          "deviceTag" : -279795187
+        }
+      },
+      "endLocation" : {
+        "latitudeE7" : 491918609,
+        "longitudeE7" : -1227648542,
+        "sourceInfo" : {
+          "deviceTag" : -279795187
+        }
+      },
+      "duration" : {
+        "startTimestampMs" : "1604253142928",
+        "endTimestampMs" : "1604253851879"
+      },
+      "distance" : 5037,
+      "activityType" : "IN_PASSENGER_VEHICLE",
+      "confidence" : "HIGH",
+      "activities" : [ {
+        "activityType" : "IN_PASSENGER_VEHICLE",
+        "probability" : 96.761155128479
+      }, {
+        "activityType" : "MOTORCYCLING",
+        "probability" : 1.8733073025941849
+      }, {
+        "activityType" : "CYCLING",
+        "probability" : 0.5389512050896883
+      }, {
+        "activityType" : "WALKING",
+        "probability" : 0.5276589654386044
+      }, {
+        "activityType" : "IN_FERRY",
+        "probability" : 0.07463613874278963
+      }, {
+        "activityType" : "IN_BUS",
+        "probability" : 0.07158528896979988
+      }, {
+        "activityType" : "STILL",
+        "probability" : 0.061935605481266975
+      }, {
+        "activityType" : "RUNNING",
+        "probability" : 0.041082483949139714
+      }, {
+        "activityType" : "FLYING",
+        "probability" : 0.021083391038700938
+      }, {
+        "activityType" : "SKIING",
+        "probability" : 0.019211132894270122
+      }, {
+        "activityType" : "IN_TRAIN",
+        "probability" : 0.005454642814584076
+      }, {
+        "activityType" : "SAILING",
+        "probability" : 0.0030156108550727367
+      }, {
+        "activityType" : "IN_TRAM",
+        "probability" : 6.656841833319049E-4
+      }, {
+        "activityType" : "IN_SUBWAY",
+        "probability" : 2.317945472896099E-4
+      }, {
+        "activityType" : "IN_VEHICLE",
+        "probability" : 2.339099438586345E-5
+      } ],
+      "waypointPath" : {
+        "waypoints" : [ {
+          "latE7" : 491493148,
+          "lngE7" : -1227803192
+        }, {
+          "latE7" : 491519165,
+          "lngE7" : -1227787780
+        }, {
+          "latE7" : 491919670,
+          "lngE7" : -1227648544
+        } ]
+      },
+      "parkingEvent" : {
+        "timestampMs" : "1604254017259",
+        "location" : {
+          "latitudeE7" : 491918854,
+          "longitudeE7" : -1227648754,
+          "accuracyMetres" : 72
+        }
+      }
+    }
+  }, {
+    "placeVisit" : {
+      "location" : {
+        "latitudeE7" : 491917702,
+        "longitudeE7" : -1227645347,
+        "placeId" : "ChIJD9CU7N_WhVQRymrNYv29LMg",
+        "address" : "16499 104 Ave\nSurrey, BC V4N 1Z6\nCanada",
+        "name" : "16499 104 Ave",
+        "sourceInfo" : {
+          "deviceTag" : -279795187
+        },
+        "locationConfidence" : 45.739994
+      },
+      "duration" : {
+        "startTimestampMs" : "1604253851879",
+        "endTimestampMs" : "1604261163183"
+      },
+      "placeConfidence" : "MEDIUM_CONFIDENCE",
+      "centerLatE7" : 491919046,
+      "centerLngE7" : -1227648944,
+      "visitConfidence" : 93,
+      "otherCandidateLocations" : [ {
+        "latitudeE7" : 491921870,
+        "longitudeE7" : -1227649457,
+        "placeId" : "ChIJt_5M79_WhVQRvTlwD6CpQZU",
+        "locationConfidence" : 14.9960575
+      }, {
+        "latitudeE7" : 491921591,
+        "longitudeE7" : -1227647135,
+        "placeId" : "ChIJi-fl6N_WhVQRhQk0iEVWx4s",
+        "locationConfidence" : 5.370484
+      }, {
+        "latitudeE7" : 491917390,
+        "longitudeE7" : -1227645749,
+        "placeId" : "ChIJTbTC7N_WhVQR7PoZ7g1W0ik",
+        "locationConfidence" : 4.7237086
+      }, {
+        "latitudeE7" : 491914620,
+        "longitudeE7" : -1227669730,
+        "placeId" : "ChIJWQXXDyDXhVQRF7WkboFB3IE",
+        "locationConfidence" : 2.3237097
+      } ],
+      "editConfirmationStatus" : "NOT_CONFIRMED"
+    }
+  }, {
+    "activitySegment" : {
+      "startLocation" : {
+        "latitudeE7" : 491918815,
+        "longitudeE7" : -1227648880,
+        "sourceInfo" : {
+          "deviceTag" : -279795187
+        }
+      },
+      "endLocation" : {
+        "latitudeE7" : 491493681,
+        "longitudeE7" : -1227797118,
+        "sourceInfo" : {
+          "deviceTag" : -279795187
+        }
+      },
+      "duration" : {
+        "startTimestampMs" : "1604261163183",
+        "endTimestampMs" : "1604262087456"
+      },
+      "distance" : 4848,
+      "activityType" : "IN_PASSENGER_VEHICLE",
+      "confidence" : "HIGH",
+      "activities" : [ {
+        "activityType" : "IN_PASSENGER_VEHICLE",
+        "probability" : 91.49305820465088
+      }, {
+        "activityType" : "CYCLING",
+        "probability" : 3.187306597828865
+      }, {
+        "activityType" : "MOTORCYCLING",
+        "probability" : 2.5287387892603874
+      }, {
+        "activityType" : "WALKING",
+        "probability" : 1.785898394882679
+      }, {
+        "activityType" : "IN_FERRY",
+        "probability" : 0.2812544582411647
+      }, {
+        "activityType" : "IN_BUS",
+        "probability" : 0.2199391834437847
+      }, {
+        "activityType" : "STILL",
+        "probability" : 0.19317775731906295
+      }, {
+        "activityType" : "SKIING",
+        "probability" : 0.14092467026785016
+      }, {
+        "activityType" : "RUNNING",
+        "probability" : 0.10282064322382212
+      }, {
+        "activityType" : "FLYING",
+        "probability" : 0.03117806918453425
+      }, {
+        "activityType" : "IN_TRAIN",
+        "probability" : 0.019201767281629145
+      }, {
+        "activityType" : "SAILING",
+        "probability" : 0.012317090295255184
+      }, {
+        "activityType" : "IN_TRAM",
+        "probability" : 0.003531211768859066
+      }, {
+        "activityType" : "IN_SUBWAY",
+        "probability" : 5.830893314850982E-4
+      }, {
+        "activityType" : "IN_VEHICLE",
+        "probability" : 6.655784545728238E-5
+      } ],
+      "waypointPath" : {
+        "waypoints" : [ {
+          "latE7" : 491919670,
+          "lngE7" : -1227648849
+        }, {
+          "latE7" : 491518096,
+          "lngE7" : -1227789382
+        }, {
+          "latE7" : 491495819,
+          "lngE7" : -1227797088
+        } ]
+      },
+      "parkingEvent" : {
+        "timestampMs" : "1604262249147",
+        "location" : {
+          "latitudeE7" : 491493747,
+          "longitudeE7" : -1227797271,
+          "accuracyMetres" : 75
+        }
+      }
+    }
+  }, {
+    "placeVisit" : {
+      "location" : {
+        "latitudeE7" : 491493149,
+        "longitudeE7" : -1227798615,
+        "placeId" : "ChIJ3x5UHKTQhVQRevn4yUfttvc",
+        "address" : "8036 159a St, Surrey, BC V4N 0K1, Canada",
+        "semanticType" : "TYPE_HOME",
+        "sourceInfo" : {
+          "deviceTag" : -279795187
+        },
+        "locationConfidence" : 94.548904
+      },
+      "duration" : {
+        "startTimestampMs" : "1604262087456",
+        "endTimestampMs" : "1604269353597"
+      },
+      "placeConfidence" : "HIGH_CONFIDENCE",
+      "centerLatE7" : 491493784,
+      "centerLngE7" : -1227798859,
+      "visitConfidence" : 90,
+      "otherCandidateLocations" : [ {
+        "latitudeE7" : 491493832,
+        "longitudeE7" : -1227795843,
+        "placeId" : "ChIJyy2hGqTQhVQRJU6dhbXpCAQ",
+        "semanticType" : "TYPE_SEARCHED_ADDRESS",
+        "locationConfidence" : 1.7143024
+      }, {
+        "latitudeE7" : 491490620,
+        "longitudeE7" : -1227800580,
+        "placeId" : "ChIJxXz5AqTQhVQRoegY1yO_Jgc",
+        "semanticType" : "TYPE_SEARCHED_ADDRESS",
+        "locationConfidence" : 1.6507704
+      }, {
+        "latitudeE7" : 491492123,
+        "longitudeE7" : -1227800055,
+        "placeId" : "ChIJ2ZxOA6TQhVQRbSHX9_rtKRI",
+        "semanticType" : "TYPE_SEARCHED_ADDRESS",
+        "locationConfidence" : 0.40302286
+      }, {
+        "latitudeE7" : 491480790,
+        "longitudeE7" : -1227831530,
+        "placeId" : "ChIJr8bTYqDQhVQRRzSgN3OQiV8",
+        "locationConfidence" : 0.05352934
+      } ],
+      "editConfirmationStatus" : "NOT_CONFIRMED"
+    }
+  }, {
+    "activitySegment" : {
+      "startLocation" : {
+        "latitudeE7" : 491497774,
+        "longitudeE7" : -1227807197,
+        "sourceInfo" : {
+          "deviceTag" : -279795187
+        }
+      },
+      "endLocation" : {
+        "latitudeE7" : 491473123,
+        "longitudeE7" : -1227884527,
+        "sourceInfo" : {
+          "deviceTag" : -279795187
+        }
+      },
+      "duration" : {
+        "startTimestampMs" : "1604269353597",
+        "endTimestampMs" : "1604269941149"
+      },
+      "distance" : 632,
+      "activityType" : "IN_PASSENGER_VEHICLE",
+      "confidence" : "LOW",
+      "activities" : [ {
+        "activityType" : "IN_PASSENGER_VEHICLE",
+        "probability" : 41.33389890193939
+      }, {
+        "activityType" : "WALKING",
+        "probability" : 36.7252379655838
+      }, {
+        "activityType" : "CYCLING",
+        "probability" : 17.800922691822052
+      }, {
+        "activityType" : "MOTORCYCLING",
+        "probability" : 1.4898862689733505
+      }, {
+        "activityType" : "RUNNING",
+        "probability" : 0.8435339666903019
+      }, {
+        "activityType" : "IN_BUS",
+        "probability" : 0.577991409227252
+      }, {
+        "activityType" : "IN_FERRY",
+        "probability" : 0.5580775439739227
+      }, {
+        "activityType" : "SKIING",
+        "probability" : 0.2964956685900688
+      }, {
+        "activityType" : "STILL",
+        "probability" : 0.2631212817505002
+      }, {
+        "activityType" : "SAILING",
+        "probability" : 0.041569481254555285
+      }, {
+        "activityType" : "IN_TRAIN",
+        "probability" : 0.02943343424703926
+      }, {
+        "activityType" : "FLYING",
+        "probability" : 0.028195639606565237
+      }, {
+        "activityType" : "IN_TRAM",
+        "probability" : 0.011019426165148616
+      }, {
+        "activityType" : "IN_SUBWAY",
+        "probability" : 5.155448889127001E-4
+      }, {
+        "activityType" : "IN_VEHICLE",
+        "probability" : 9.998628911489504E-5
+      } ],
+      "waypointPath" : {
+        "waypoints" : [ {
+          "latE7" : 491495819,
+          "lngE7" : -1227807159
+        }, {
+          "latE7" : 491482467,
+          "lngE7" : -1227857742
+        }, {
+          "latE7" : 491482467,
+          "lngE7" : -1227862701
+        } ]
+      },
+      "parkingEvent" : {
+        "timestampMs" : "1604270099736",
+        "location" : {
+          "latitudeE7" : 491478940,
+          "longitudeE7" : -1227868299,
+          "accuracyMetres" : 120
+        }
+      }
+    }
+  }, {
+    "placeVisit" : {
+      "location" : {
+        "latitudeE7" : 491480790,
+        "longitudeE7" : -1227831530,
+        "placeId" : "ChIJr8bTYqDQhVQRRzSgN3OQiV8",
+        "address" : "15802\n15802 80 Ave\nSurrey, BC V4N 0T3\nCanada",
+        "name" : "Fleetwood Park",
+        "sourceInfo" : {
+          "deviceTag" : -279795187
+        },
+        "locationConfidence" : 57.697838
+      },
+      "duration" : {
+        "startTimestampMs" : "1604269941149",
+        "endTimestampMs" : "1604274361211"
+      },
+      "placeConfidence" : "MEDIUM_CONFIDENCE",
+      "centerLatE7" : 491465528,
+      "centerLngE7" : -1227892770,
+      "visitConfidence" : 90,
+      "otherCandidateLocations" : [ {
+        "latitudeE7" : 491476085,
+        "longitudeE7" : -1227887984,
+        "placeId" : "ChIJ89-rzwnahVQRA0YGI4xH8Aw",
+        "locationConfidence" : 30.119604
+      }, {
+        "latitudeE7" : 491467094,
+        "longitudeE7" : -1227883606,
+        "placeId" : "ChIJPdk-2QnahVQRgx6ei_NHOmA",
+        "locationConfidence" : 8.897459
+      }, {
+        "latitudeE7" : 491470145,
+        "longitudeE7" : -1227905676,
+        "placeId" : "ChIJxcxBuQnahVQR1kOXGAhOcWg",
+        "locationConfidence" : 1.3389252
+      }, {
+        "latitudeE7" : 491472780,
+        "longitudeE7" : -1227926540,
+        "placeId" : "ChIJiWXaqgnahVQRO4BqIktyfsU",
+        "semanticType" : "TYPE_SEARCHED_ADDRESS",
+        "locationConfidence" : 1.0566015
+      } ],
+      "editConfirmationStatus" : "NOT_CONFIRMED",
+      "simplifiedRawPath" : {
+        "points" : [ {
+          "latE7" : 491458745,
+          "lngE7" : -1227888367,
+          "timestampMs" : "1604271601194",
+          "accuracyMeters" : 60
+        }, {
+          "latE7" : 491455828,
+          "lngE7" : -1227885619,
+          "timestampMs" : "1604271773787",
+          "accuracyMeters" : 69
+        }, {
+          "latE7" : 491472639,
+          "lngE7" : -1227890696,
+          "timestampMs" : "1604272505289",
+          "accuracyMeters" : 39
+        }, {
+          "latE7" : 491458620,
+          "lngE7" : -1227889181,
+          "timestampMs" : "1604273569429",
+          "accuracyMeters" : 81
+        }, {
+          "latE7" : 491472984,
+          "lngE7" : -1227892529,
+          "timestampMs" : "1604273649282",
+          "accuracyMeters" : 42
+        } ]
+      }
+    }
+  }, {
+    "activitySegment" : {
+      "startLocation" : {
+        "latitudeE7" : 491472796,
+        "longitudeE7" : -1227891370,
+        "sourceInfo" : {
+          "deviceTag" : -279795187
+        }
+      },
+      "endLocation" : {
+        "latitudeE7" : 491493099,
+        "longitudeE7" : -1227796926,
+        "sourceInfo" : {
+          "deviceTag" : -279795187
+        }
+      },
+      "duration" : {
+        "startTimestampMs" : "1604274361211",
+        "endTimestampMs" : "1604275436575"
+      },
+      "distance" : 723,
+      "activityType" : "IN_PASSENGER_VEHICLE",
+      "confidence" : "LOW",
+      "activities" : [ {
+        "activityType" : "IN_PASSENGER_VEHICLE",
+        "probability" : 42.6252007484436
+      }, {
+        "activityType" : "CYCLING",
+        "probability" : 37.097176909446716
+      }, {
+        "activityType" : "WALKING",
+        "probability" : 16.756129264831543
+      }, {
+        "activityType" : "MOTORCYCLING",
+        "probability" : 1.7175739631056786
+      }, {
+        "activityType" : "RUNNING",
+        "probability" : 0.5373337771743536
+      }, {
+        "activityType" : "IN_FERRY",
+        "probability" : 0.4176486749202013
+      }, {
+        "activityType" : "SKIING",
+        "probability" : 0.307874521240592
+      }, {
+        "activityType" : "IN_BUS",
+        "probability" : 0.29051785822957754
+      }, {
+        "activityType" : "STILL",
+        "probability" : 0.15167134115472436
+      }, {
+        "activityType" : "SAILING",
+        "probability" : 0.05470996838994324
+      }, {
+        "activityType" : "IN_TRAIN",
+        "probability" : 0.02397874341113493
+      }, {
+        "activityType" : "IN_TRAM",
+        "probability" : 0.013433511776383966
+      }, {
+        "activityType" : "FLYING",
+        "probability" : 0.006318156374618411
+      }, {
+        "activityType" : "IN_VEHICLE",
+        "probability" : 3.174420044160797E-4
+      }, {
+        "activityType" : "IN_SUBWAY",
+        "probability" : 1.1243637345614843E-4
+      } ],
+      "waypointPath" : {
+        "waypoints" : [ {
+          "latE7" : 491472892,
+          "lngE7" : -1227900848
+        }, {
+          "latE7" : 491482505,
+          "lngE7" : -1227876815
+        }, {
+          "latE7" : 491495819,
+          "lngE7" : -1227796936
+        } ]
+      },
+      "parkingEvent" : {
+        "timestampMs" : "1604275561118",
+        "location" : {
+          "latitudeE7" : 491493739,
+          "longitudeE7" : -1227797261,
+          "accuracyMetres" : 75
+        }
+      }
+    }
+  }, {
+    "placeVisit" : {
+      "location" : {
+        "latitudeE7" : 491493149,
+        "longitudeE7" : -1227798615,
+        "placeId" : "ChIJ3x5UHKTQhVQRevn4yUfttvc",
+        "address" : "8036 159a St, Surrey, BC V4N 0K1, Canada",
+        "semanticType" : "TYPE_HOME",
+        "sourceInfo" : {
+          "deviceTag" : -279795187
+        },
+        "locationConfidence" : 95.27312
+      },
+      "duration" : {
+        "startTimestampMs" : "1604275436575",
+        "endTimestampMs" : "1604457752712"
+      },
+      "placeConfidence" : "HIGH_CONFIDENCE",
+      "centerLatE7" : 491493098,
+      "centerLngE7" : -1227799331,
+      "visitConfidence" : 93,
+      "otherCandidateLocations" : [ {
+        "latitudeE7" : 491490620,
+        "longitudeE7" : -1227800580,
+        "placeId" : "ChIJxXz5AqTQhVQRoegY1yO_Jgc",
+        "semanticType" : "TYPE_SEARCHED_ADDRESS",
+        "locationConfidence" : 1.5648024
+      }, {
+        "latitudeE7" : 491493832,
+        "longitudeE7" : -1227795843,
+        "placeId" : "ChIJyy2hGqTQhVQRJU6dhbXpCAQ",
+        "semanticType" : "TYPE_SEARCHED_ADDRESS",
+        "locationConfidence" : 1.4554963
+      }, {
+        "latitudeE7" : 491480790,
+        "longitudeE7" : -1227831530,
+        "placeId" : "ChIJr8bTYqDQhVQRRzSgN3OQiV8",
+        "locationConfidence" : 0.39477348
+      }, {
+        "latitudeE7" : 491492123,
+        "longitudeE7" : -1227800055,
+        "placeId" : "ChIJ2ZxOA6TQhVQRbSHX9_rtKRI",
+        "semanticType" : "TYPE_SEARCHED_ADDRESS",
+        "locationConfidence" : 0.30319887
+      } ],
+      "editConfirmationStatus" : "NOT_CONFIRMED"
+    }
+  }, {
+    "activitySegment" : {
+      "startLocation" : {
+        "latitudeE7" : 491491246,
+        "longitudeE7" : -1227789940,
+        "sourceInfo" : {
+          "deviceTag" : -279795187
+        }
+      },
+      "endLocation" : {
+        "latitudeE7" : 491060227,
+        "longitudeE7" : -1226458079,
+        "sourceInfo" : {
+          "deviceTag" : -279795187
+        }
+      },
+      "duration" : {
+        "startTimestampMs" : "1604457752712",
+        "endTimestampMs" : "1604458785941"
+      },
+      "distance" : 10928,
+      "activityType" : "IN_PASSENGER_VEHICLE",
+      "confidence" : "HIGH",
+      "activities" : [ {
+        "activityType" : "IN_PASSENGER_VEHICLE",
+        "probability" : 97.26513028144836
+      }, {
+        "activityType" : "MOTORCYCLING",
+        "probability" : 0.851330254226923
+      }, {
+        "activityType" : "WALKING",
+        "probability" : 0.816846638917923
+      }, {
+        "activityType" : "CYCLING",
+        "probability" : 0.5027590319514275
+      }, {
+        "activityType" : "STILL",
+        "probability" : 0.27556612621992826
+      }, {
+        "activityType" : "IN_FERRY",
+        "probability" : 0.13588180299848318
+      }, {
+        "activityType" : "IN_BUS",
+        "probability" : 0.06456146948039532
+      }, {
+        "activityType" : "RUNNING",
+        "probability" : 0.03446925547905266
+      }, {
+        "activityType" : "SKIING",
+        "probability" : 0.022424326743930578
+      }, {
+        "activityType" : "FLYING",
+        "probability" : 0.018314910994376987
+      }, {
+        "activityType" : "IN_TRAIN",
+        "probability" : 0.007724561874056235
+      }, {
+        "activityType" : "SAILING",
+        "probability" : 0.004614001954905689
+      }, {
+        "activityType" : "IN_TRAM",
+        "probability" : 3.0651701763417805E-4
+      }, {
+        "activityType" : "IN_SUBWAY",
+        "probability" : 7.576693406008417E-5
+      }, {
+        "activityType" : "IN_VEHICLE",
+        "probability" : 3.818703575575455E-6
+      } ],
+      "waypointPath" : {
+        "waypoints" : [ {
+          "latE7" : 491491241,
+          "lngE7" : -1227788619
+        }, {
+          "latE7" : 491258583,
+          "lngE7" : -1227067108
+        }, {
+          "latE7" : 491060256,
+          "lngE7" : -1226459045
+        } ]
+      },
+      "parkingEvent" : {
+        "timestampMs" : "1604458809937",
+        "location" : {
+          "latitudeE7" : 491061062,
+          "longitudeE7" : -1226459028,
+          "accuracyMetres" : 106
+        }
+      }
+    }
+  }, {
+    "placeVisit" : {
+      "location" : {
+        "latitudeE7" : 491063728,
+        "longitudeE7" : -1226416397,
+        "placeId" : "ChIJ8_iS2zHOhVQRSD2S5bxAWr8",
+        "address" : "5700 Langley Bypass\nLangley City, BC V3A 7Z3\nCanada",
+        "name" : "Twin Rinks Physiotherapy",
+        "sourceInfo" : {
+          "deviceTag" : -279795187
+        },
+        "locationConfidence" : 36.090485
+      },
+      "duration" : {
+        "startTimestampMs" : "1604458785941",
+        "endTimestampMs" : "1604460513177"
+      },
+      "placeConfidence" : "LOW_CONFIDENCE",
+      "centerLatE7" : 491060450,
+      "centerLngE7" : -1226456250,
+      "visitConfidence" : 86,
+      "otherCandidateLocations" : [ {
+        "latitudeE7" : 491060929,
+        "longitudeE7" : -1226447239,
+        "placeId" : "ChIJTbK79zHOhVQRPlmi1H13wf0",
+        "locationConfidence" : 20.376114
+      }, {
+        "latitudeE7" : 491058136,
+        "longitudeE7" : -1226462310,
+        "placeId" : "ChIJf8ciDzLOhVQRoOMk2Oei0t0",
+        "locationConfidence" : 5.9323316
+      }, {
+        "latitudeE7" : 491057081,
+        "longitudeE7" : -1226462341,
+        "placeId" : "ChIJAXH9DjLOhVQRSM1TyL-8iRw",
+        "locationConfidence" : 4.525325
+      }, {
+        "latitudeE7" : 491058136,
+        "longitudeE7" : -1226462310,
+        "placeId" : "ChIJF-jBCTLOhVQRnU3Lnt3wF50",
+        "locationConfidence" : 1.0952419
+      }, {
+        "latitudeE7" : 491047140,
+        "longitudeE7" : -1226443270,
+        "placeId" : "ChIJ9y1jJTLOhVQRpgiLr7kbEf0",
+        "locationConfidence" : 0.70183563
+      }, {
+        "latitudeE7" : 491045940,
+        "longitudeE7" : -1226461180,
+        "placeId" : "ChIJuZfIQzLOhVQRDG87Pr2_diE",
+        "locationConfidence" : 0.63587266
+      }, {
+        "latitudeE7" : 491095701,
+        "longitudeE7" : -1226452910,
+        "placeId" : "ChIJReyi-y7OhVQRrdcEgzsYpwc",
+        "locationConfidence" : 0.535173
+      } ],
+      "editConfirmationStatus" : "NOT_CONFIRMED"
+    }
+  }, {
+    "activitySegment" : {
+      "startLocation" : {
+        "latitudeE7" : 491062856,
+        "longitudeE7" : -1226458100,
+        "sourceInfo" : {
+          "deviceTag" : -279795187
+        }
+      },
+      "endLocation" : {
+        "latitudeE7" : 491493683,
+        "longitudeE7" : -1227802357,
+        "sourceInfo" : {
+          "deviceTag" : -279795187
+        }
+      },
+      "duration" : {
+        "startTimestampMs" : "1604460513177",
+        "endTimestampMs" : "1604461476103"
+      },
+      "distance" : 11088,
+      "activityType" : "IN_PASSENGER_VEHICLE",
+      "confidence" : "HIGH",
+      "activities" : [ {
+        "activityType" : "IN_PASSENGER_VEHICLE",
+        "probability" : 97.28733897209167
+      }, {
+        "activityType" : "MOTORCYCLING",
+        "probability" : 0.7252632640302181
+      }, {
+        "activityType" : "CYCLING",
+        "probability" : 0.7104397751390934
+      }, {
+        "activityType" : "WALKING",
+        "probability" : 0.5667378660291433
+      }, {
+        "activityType" : "STILL",
+        "probability" : 0.3742027562111616
+      }, {
+        "activityType" : "IN_FERRY",
+        "probability" : 0.14487619046121836
+      }, {
+        "activityType" : "IN_BUS",
+        "probability" : 0.07252678624354303
+      }, {
+        "activityType" : "RUNNING",
+        "probability" : 0.03272040921729058
+      }, {
+        "activityType" : "SKIING",
+        "probability" : 0.03218911588191986
+      }, {
+        "activityType" : "IN_TRAIN",
+        "probability" : 0.02991470682900399
+      }, {
+        "activityType" : "FLYING",
+        "probability" : 0.01635613734833896
+      }, {
+        "activityType" : "SAILING",
+        "probability" : 0.006194287561811507
+      }, {
+        "activityType" : "IN_TRAM",
+        "probability" : 0.0010168707376578823
+      }, {
+        "activityType" : "IN_SUBWAY",
+        "probability" : 1.6405002725150553E-4
+      }, {
+        "activityType" : "IN_VEHICLE",
+        "probability" : 5.102251634525601E-5
+      } ],
+      "waypointPath" : {
+        "waypoints" : [ {
+          "latE7" : 491062545,
+          "lngE7" : -1226458129
+        }, {
+          "latE7" : 491193809,
+          "lngE7" : -1226922302
+        }, {
+          "latE7" : 491493682,
+          "lngE7" : -1227803192
+        } ]
+      },
+      "parkingEvent" : {
+        "timestampMs" : "1604461476103",
+        "location" : {
+          "latitudeE7" : 491493683,
+          "longitudeE7" : -1227802357,
+          "accuracyMetres" : 79
+        }
+      }
+    }
+  }, {
+    "placeVisit" : {
+      "location" : {
+        "latitudeE7" : 491493149,
+        "longitudeE7" : -1227798615,
+        "placeId" : "ChIJ3x5UHKTQhVQRevn4yUfttvc",
+        "address" : "8036 159a St, Surrey, BC V4N 0K1, Canada",
+        "semanticType" : "TYPE_HOME",
+        "sourceInfo" : {
+          "deviceTag" : -279795187
+        },
+        "locationConfidence" : 94.90996
+      },
+      "duration" : {
+        "startTimestampMs" : "1604461476103",
+        "endTimestampMs" : "1604535519748"
+      },
+      "placeConfidence" : "HIGH_CONFIDENCE",
+      "centerLatE7" : 491493435,
+      "centerLngE7" : -1227797663,
+      "visitConfidence" : 90,
+      "otherCandidateLocations" : [ {
+        "latitudeE7" : 491493832,
+        "longitudeE7" : -1227795843,
+        "placeId" : "ChIJyy2hGqTQhVQRJU6dhbXpCAQ",
+        "semanticType" : "TYPE_SEARCHED_ADDRESS",
+        "locationConfidence" : 1.3317007
+      }, {
+        "latitudeE7" : 491490620,
+        "longitudeE7" : -1227800580,
+        "placeId" : "ChIJxXz5AqTQhVQRoegY1yO_Jgc",
+        "semanticType" : "TYPE_SEARCHED_ADDRESS",
+        "locationConfidence" : 1.2128713
+      }, {
+        "latitudeE7" : 491492123,
+        "longitudeE7" : -1227800055,
+        "placeId" : "ChIJ2ZxOA6TQhVQRbSHX9_rtKRI",
+        "semanticType" : "TYPE_SEARCHED_ADDRESS",
+        "locationConfidence" : 0.22432679
+      }, {
+        "latitudeE7" : 491495900,
+        "longitudeE7" : -1227802470,
+        "placeId" : "ChIJ2flAGaTQhVQRyFQTsRBjJzw",
+        "locationConfidence" : 0.039537236
+      } ],
+      "editConfirmationStatus" : "NOT_CONFIRMED"
+    }
+  }, {
+    "activitySegment" : {
+      "startLocation" : {
+        "latitudeE7" : 491494950,
+        "longitudeE7" : -1227815743,
+        "sourceInfo" : {
+          "deviceTag" : -279795187
+        }
+      },
+      "endLocation" : {
+        "latitudeE7" : 491484180,
+        "longitudeE7" : -1227813542,
+        "sourceInfo" : {
+          "deviceTag" : -279795187
+        }
+      },
+      "duration" : {
+        "startTimestampMs" : "1604535519748",
+        "endTimestampMs" : "1604535706976"
+      },
+      "distance" : 120,
+      "activityType" : "WALKING",
+      "confidence" : "HIGH",
+      "activities" : [ {
+        "activityType" : "WALKING",
+        "probability" : 80.7210624217987
+      }, {
+        "activityType" : "IN_PASSENGER_VEHICLE",
+        "probability" : 14.422239363193512
+      }, {
+        "activityType" : "CYCLING",
+        "probability" : 3.5443995147943497
+      }, {
+        "activityType" : "STILL",
+        "probability" : 0.5608981940895319
+      }, {
+        "activityType" : "RUNNING",
+        "probability" : 0.31278496608138084
+      }, {
+        "activityType" : "MOTORCYCLING",
+        "probability" : 0.291235838085413
+      }, {
+        "activityType" : "IN_BUS",
+        "probability" : 0.0856568745803088
+      }, {
+        "activityType" : "IN_FERRY",
+        "probability" : 0.0349914567777887
+      }, {
+        "activityType" : "SKIING",
+        "probability" : 0.008990470814751461
+      }, {
+        "activityType" : "SAILING",
+        "probability" : 0.005519057958736084
+      }, {
+        "activityType" : "IN_TRAIN",
+        "probability" : 0.005142493682797067
+      }, {
+        "activityType" : "IN_TRAM",
+        "probability" : 0.0049617814511293545
+      }, {
+        "activityType" : "FLYING",
+        "probability" : 0.0017921929611475207
+      }, {
+        "activityType" : "IN_SUBWAY",
+        "probability" : 3.187790525771561E-4
+      }, {
+        "activityType" : "IN_VEHICLE",
+        "probability" : 2.6177422896012104E-6
+      } ],
+      "waypointPath" : {
+        "waypoints" : [ {
+          "latE7" : 491495285,
+          "lngE7" : -1227816009
+        }, {
+          "latE7" : 491482467,
+          "lngE7" : -1227815322
+        }, {
+          "latE7" : 491482429,
+          "lngE7" : -1227813568
+        } ]
+      }
+    }
+  }, {
+    "placeVisit" : {
+      "location" : {
+        "latitudeE7" : 491480790,
+        "longitudeE7" : -1227831530,
+        "placeId" : "ChIJr8bTYqDQhVQRRzSgN3OQiV8",
+        "address" : "15802\n15802 80 Ave\nSurrey, BC V4N 0T3\nCanada",
+        "name" : "Fleetwood Park",
+        "sourceInfo" : {
+          "deviceTag" : -279795187
+        },
+        "locationConfidence" : 97.50949
+      },
+      "duration" : {
+        "startTimestampMs" : "1604535706976",
+        "endTimestampMs" : "1604536001078"
+      },
+      "placeConfidence" : "HIGH_CONFIDENCE",
+      "centerLatE7" : 491483760,
+      "centerLngE7" : -1227824780,
+      "visitConfidence" : 83,
+      "otherCandidateLocations" : [ {
+        "latitudeE7" : 491493149,
+        "longitudeE7" : -1227798615,
+        "placeId" : "ChIJ3x5UHKTQhVQRevn4yUfttvc",
+        "semanticType" : "TYPE_HOME",
+        "locationConfidence" : 0.93085104
+      }, {
+        "latitudeE7" : 491490620,
+        "longitudeE7" : -1227800580,
+        "placeId" : "ChIJxXz5AqTQhVQRoegY1yO_Jgc",
+        "semanticType" : "TYPE_SEARCHED_ADDRESS",
+        "locationConfidence" : 0.29943457
+      }, {
+        "latitudeE7" : 491493832,
+        "longitudeE7" : -1227795843,
+        "placeId" : "ChIJyy2hGqTQhVQRJU6dhbXpCAQ",
+        "semanticType" : "TYPE_SEARCHED_ADDRESS",
+        "locationConfidence" : 0.13987575
+      }, {
+        "latitudeE7" : 491492123,
+        "longitudeE7" : -1227800055,
+        "placeId" : "ChIJ2ZxOA6TQhVQRbSHX9_rtKRI",
+        "semanticType" : "TYPE_SEARCHED_ADDRESS",
+        "locationConfidence" : 0.09798244
+      } ],
+      "editConfirmationStatus" : "NOT_CONFIRMED",
+      "simplifiedRawPath" : {
+        "points" : [ {
+          "latE7" : 491484180,
+          "lngE7" : -1227813542,
+          "timestampMs" : "1604535706976",
+          "accuracyMeters" : 15
+        }, {
+          "latE7" : 491483195,
+          "lngE7" : -1227835654,
+          "timestampMs" : "1604535947029",
+          "accuracyMeters" : 28
+        } ]
+      }
+    }
+  }, {
+    "activitySegment" : {
+      "startLocation" : {
+        "latitudeE7" : 491483229,
+        "longitudeE7" : -1227834765,
+        "sourceInfo" : {
+          "deviceTag" : -279795187
+        }
+      },
+      "endLocation" : {
+        "latitudeE7" : 491492510,
+        "longitudeE7" : -1227802277,
+        "sourceInfo" : {
+          "deviceTag" : -279795187
+        }
+      },
+      "duration" : {
+        "startTimestampMs" : "1604536001078",
+        "endTimestampMs" : "1604536852634"
+      },
+      "distance" : 257,
+      "activityType" : "WALKING",
+      "confidence" : "HIGH",
+      "activities" : [ {
+        "activityType" : "WALKING",
+        "probability" : 81.708163022995
+      }, {
+        "activityType" : "IN_PASSENGER_VEHICLE",
+        "probability" : 13.73361349105835
+      }, {
+        "activityType" : "CYCLING",
+        "probability" : 2.6409493759274483
+      }, {
+        "activityType" : "STILL",
+        "probability" : 0.7559360470622778
+      }, {
+        "activityType" : "RUNNING",
+        "probability" : 0.5274481605738401
+      }, {
+        "activityType" : "MOTORCYCLING",
+        "probability" : 0.5234383977949619
+      }, {
+        "activityType" : "IN_BUS",
+        "probability" : 0.03905106568709016
+      }, {
+        "activityType" : "IN_FERRY",
+        "probability" : 0.0286439637420699
+      }, {
+        "activityType" : "SKIING",
+        "probability" : 0.028075758018530905
+      }, {
+        "activityType" : "SAILING",
+        "probability" : 0.006413480878109112
+      }, {
+        "activityType" : "FLYING",
+        "probability" : 0.0035958255466539413
+      }, {
+        "activityType" : "IN_TRAIN",
+        "probability" : 0.0025799230570555665
+      }, {
+        "activityType" : "IN_TRAM",
+        "probability" : 0.0014388522686203942
+      }, {
+        "activityType" : "IN_SUBWAY",
+        "probability" : 6.026490609656321E-4
+      }, {
+        "activityType" : "IN_VEHICLE",
+        "probability" : 4.202907462058647E-5
+      } ],
+      "waypointPath" : {
+        "waypoints" : [ {
+          "latE7" : 491482467,
+          "lngE7" : -1227834777
+        }, {
+          "latE7" : 491484794,
+          "lngE7" : -1227817077
+        }, {
+          "latE7" : 491492500,
+          "lngE7" : -1227803115
+        } ]
+      }
+    }
+  }, {
+    "placeVisit" : {
+      "location" : {
+        "latitudeE7" : 491493149,
+        "longitudeE7" : -1227798615,
+        "placeId" : "ChIJ3x5UHKTQhVQRevn4yUfttvc",
+        "address" : "8036 159a St, Surrey, BC V4N 0K1, Canada",
+        "semanticType" : "TYPE_HOME",
+        "sourceInfo" : {
+          "deviceTag" : -279795187
+        },
+        "locationConfidence" : 95.81722
+      },
+      "duration" : {
+        "startTimestampMs" : "1604536852634",
+        "endTimestampMs" : "1604631364211"
+      },
+      "placeConfidence" : "HIGH_CONFIDENCE",
+      "centerLatE7" : 491493512,
+      "centerLngE7" : -1227798019,
+      "visitConfidence" : 95,
+      "otherCandidateLocations" : [ {
+        "latitudeE7" : 491493832,
+        "longitudeE7" : -1227795843,
+        "placeId" : "ChIJyy2hGqTQhVQRJU6dhbXpCAQ",
+        "semanticType" : "TYPE_SEARCHED_ADDRESS",
+        "locationConfidence" : 1.6783638
+      }, {
+        "latitudeE7" : 491490620,
+        "longitudeE7" : -1227800580,
+        "placeId" : "ChIJxXz5AqTQhVQRoegY1yO_Jgc",
+        "semanticType" : "TYPE_SEARCHED_ADDRESS",
+        "locationConfidence" : 1.5862654
+      }, {
+        "latitudeE7" : 491492123,
+        "longitudeE7" : -1227800055,
+        "placeId" : "ChIJ2ZxOA6TQhVQRbSHX9_rtKRI",
+        "semanticType" : "TYPE_SEARCHED_ADDRESS",
+        "locationConfidence" : 0.26855502
+      }, {
+        "latitudeE7" : 491480790,
+        "longitudeE7" : -1227831530,
+        "placeId" : "ChIJr8bTYqDQhVQRRzSgN3OQiV8",
+        "locationConfidence" : 0.19085866
+      } ],
+      "editConfirmationStatus" : "NOT_CONFIRMED"
+    }
+  }, {
+    "activitySegment" : {
+      "startLocation" : {
+        "latitudeE7" : 491494238,
+        "longitudeE7" : -1227803814,
+        "sourceInfo" : {
+          "deviceTag" : -279795187
+        }
+      },
+      "endLocation" : {
+        "latitudeE7" : 491918668,
+        "longitudeE7" : -1227648086,
+        "sourceInfo" : {
+          "deviceTag" : -279795187
+        }
+      },
+      "duration" : {
+        "startTimestampMs" : "1604631364211",
+        "endTimestampMs" : "1604632134091"
+      },
+      "distance" : 4960,
+      "activityType" : "IN_PASSENGER_VEHICLE",
+      "confidence" : "HIGH",
+      "activities" : [ {
+        "activityType" : "IN_PASSENGER_VEHICLE",
+        "probability" : 95.39830684661865
+      }, {
+        "activityType" : "MOTORCYCLING",
+        "probability" : 1.9267171621322632
+      }, {
+        "activityType" : "WALKING",
+        "probability" : 1.3245787471532822
+      }, {
+        "activityType" : "CYCLING",
+        "probability" : 0.8944739587605
+      }, {
+        "activityType" : "STILL",
+        "probability" : 0.24230247363448143
+      }, {
+        "activityType" : "RUNNING",
+        "probability" : 0.0989012885838747
+      }, {
+        "activityType" : "IN_BUS",
+        "probability" : 0.05261451005935669
+      }, {
+        "activityType" : "IN_FERRY",
+        "probability" : 0.03291646717116237
+      }, {
+        "activityType" : "FLYING",
+        "probability" : 0.015361224359367043
+      }, {
+        "activityType" : "IN_TRAIN",
+        "probability" : 0.0062014230934437364
+      }, {
+        "activityType" : "SKIING",
+        "probability" : 0.0027241636416874826
+      }, {
+        "activityType" : "IN_SUBWAY",
+        "probability" : 0.002306509850313887
+      }, {
+        "activityType" : "SAILING",
+        "probability" : 0.0017704427591525018
+      }, {
+        "activityType" : "IN_TRAM",
+        "probability" : 8.102902029349934E-4
+      }, {
+        "activityType" : "IN_VEHICLE",
+        "probability" : 1.0936408045836288E-5
+      } ],
+      "waypointPath" : {
+        "waypoints" : [ {
+          "latE7" : 491494255,
+          "lngE7" : -1227803192
+        }, {
+          "latE7" : 491804733,
+          "lngE7" : -1227786636
+        }, {
+          "latE7" : 491919670,
+          "lngE7" : -1227648086
+        } ]
+      },
+      "parkingEvent" : {
+        "timestampMs" : "1604632134091",
+        "location" : {
+          "latitudeE7" : 491918668,
+          "longitudeE7" : -1227648086,
+          "accuracyMetres" : 73
+        }
+      }
+    }
+  }, {
+    "placeVisit" : {
+      "location" : {
+        "latitudeE7" : 491921870,
+        "longitudeE7" : -1227649457,
+        "placeId" : "ChIJt_5M79_WhVQRvTlwD6CpQZU",
+        "address" : "16488 104a Ave\nSurrey, BC V4N 5S6\nCanada",
+        "name" : "16488 104a Ave",
+        "sourceInfo" : {
+          "deviceTag" : -279795187
+        },
+        "locationConfidence" : 35.02193
+      },
+      "duration" : {
+        "startTimestampMs" : "1604632134091",
+        "endTimestampMs" : "1604637979909"
+      },
+      "placeConfidence" : "MEDIUM_CONFIDENCE",
+      "centerLatE7" : 491919219,
+      "centerLngE7" : -1227648990,
+      "visitConfidence" : 94,
+      "otherCandidateLocations" : [ {
+        "latitudeE7" : 491921591,
+        "longitudeE7" : -1227647135,
+        "placeId" : "ChIJi-fl6N_WhVQRhQk0iEVWx4s",
+        "locationConfidence" : 28.142893
+      }, {
+        "latitudeE7" : 491917702,
+        "longitudeE7" : -1227645347,
+        "placeId" : "ChIJD9CU7N_WhVQRymrNYv29LMg",
+        "locationConfidence" : 14.867854
+      }, {
+        "latitudeE7" : 491917390,
+        "longitudeE7" : -1227645749,
+        "placeId" : "ChIJTbTC7N_WhVQR7PoZ7g1W0ik",
+        "locationConfidence" : 3.8888953
+      }, {
+        "latitudeE7" : 491914620,
+        "longitudeE7" : -1227669730,
+        "placeId" : "ChIJWQXXDyDXhVQRF7WkboFB3IE",
+        "locationConfidence" : 2.2980924
+      } ],
+      "editConfirmationStatus" : "NOT_CONFIRMED"
+    }
+  }, {
+    "activitySegment" : {
+      "startLocation" : {
+        "latitudeE7" : 491921562,
+        "longitudeE7" : -1227650809,
+        "sourceInfo" : {
+          "deviceTag" : -279795187
+        }
+      },
+      "endLocation" : {
+        "latitudeE7" : 491493112,
+        "longitudeE7" : -1227801710,
+        "sourceInfo" : {
+          "deviceTag" : -279795187
+        }
+      },
+      "duration" : {
+        "startTimestampMs" : "1604637979909",
+        "endTimestampMs" : "1604638692424"
+      },
+      "distance" : 5065,
+      "activityType" : "IN_PASSENGER_VEHICLE",
+      "confidence" : "HIGH",
+      "activities" : [ {
+        "activityType" : "IN_PASSENGER_VEHICLE",
+        "probability" : 95.40379643440247
+      }, {
+        "activityType" : "MOTORCYCLING",
+        "probability" : 2.2467562928795815
+      }, {
+        "activityType" : "WALKING",
+        "probability" : 1.2118381448090076
+      }, {
+        "activityType" : "CYCLING",
+        "probability" : 0.9086482226848602
+      }, {
+        "activityType" : "STILL",
+        "probability" : 0.08731821435503662
+      }, {
+        "activityType" : "RUNNING",
+        "probability" : 0.07585092098452151
+      }, {
+        "activityType" : "IN_FERRY",
+        "probability" : 0.034192611929029226
+      }, {
+        "activityType" : "IN_BUS",
+        "probability" : 0.01321880699833855
+      }, {
+        "activityType" : "FLYING",
+        "probability" : 0.009331679757451639
+      }, {
+        "activityType" : "SKIING",
+        "probability" : 0.005228991722106002
+      }, {
+        "activityType" : "SAILING",
+        "probability" : 0.0025477134840912186
+      }, {
+        "activityType" : "IN_TRAIN",
+        "probability" : 8.429316949332133E-4
+      }, {
+        "activityType" : "IN_SUBWAY",
+        "probability" : 2.698006028367672E-4
+      }, {
+        "activityType" : "IN_TRAM",
+        "probability" : 1.494772277510492E-4
+      }, {
+        "activityType" : "IN_VEHICLE",
+        "probability" : 2.1176044029402874E-6
+      } ],
+      "waypointPath" : {
+        "waypoints" : [ {
+          "latE7" : 491919860,
+          "lngE7" : -1227651367
+        }, {
+          "latE7" : 491518096,
+          "lngE7" : -1227789382
+        }, {
+          "latE7" : 491493110,
+          "lngE7" : -1227803115
+        } ]
+      },
+      "parkingEvent" : {
+        "timestampMs" : "1604638838189",
+        "location" : {
+          "latitudeE7" : 491493657,
+          "longitudeE7" : -1227797088,
+          "accuracyMetres" : 75
+        }
+      }
+    }
+  }, {
+    "placeVisit" : {
+      "location" : {
+        "latitudeE7" : 491493149,
+        "longitudeE7" : -1227798615,
+        "placeId" : "ChIJ3x5UHKTQhVQRevn4yUfttvc",
+        "address" : "8036 159a St, Surrey, BC V4N 0K1, Canada",
+        "semanticType" : "TYPE_HOME",
+        "sourceInfo" : {
+          "deviceTag" : -279795187
+        },
+        "locationConfidence" : 94.918
+      },
+      "duration" : {
+        "startTimestampMs" : "1604638692424",
+        "endTimestampMs" : "1604698771988"
+      },
+      "placeConfidence" : "HIGH_CONFIDENCE",
+      "centerLatE7" : 491493876,
+      "centerLngE7" : -1227798118,
+      "visitConfidence" : 94,
+      "otherCandidateLocations" : [ {
+        "latitudeE7" : 491493832,
+        "longitudeE7" : -1227795843,
+        "placeId" : "ChIJyy2hGqTQhVQRJU6dhbXpCAQ",
+        "semanticType" : "TYPE_SEARCHED_ADDRESS",
+        "locationConfidence" : 2.3950105
+      }, {
+        "latitudeE7" : 491490620,
+        "longitudeE7" : -1227800580,
+        "placeId" : "ChIJxXz5AqTQhVQRoegY1yO_Jgc",
+        "semanticType" : "TYPE_SEARCHED_ADDRESS",
+        "locationConfidence" : 1.3956028
+      }, {
+        "latitudeE7" : 491492123,
+        "longitudeE7" : -1227800055,
+        "placeId" : "ChIJ2ZxOA6TQhVQRbSHX9_rtKRI",
+        "semanticType" : "TYPE_SEARCHED_ADDRESS",
+        "locationConfidence" : 0.29445973
+      }, {
+        "latitudeE7" : 491495900,
+        "longitudeE7" : -1227802470,
+        "placeId" : "ChIJ2flAGaTQhVQRyFQTsRBjJzw",
+        "locationConfidence" : 0.04355052
+      } ],
+      "editConfirmationStatus" : "NOT_CONFIRMED"
+    }
+  }, {
+    "activitySegment" : {
+      "startLocation" : {
+        "latitudeE7" : 491494905,
+        "longitudeE7" : -1227797457,
+        "sourceInfo" : {
+          "deviceTag" : -279795187
+        }
+      },
+      "endLocation" : {
+        "latitudeE7" : 491494040,
+        "longitudeE7" : -1227803416,
+        "sourceInfo" : {
+          "deviceTag" : -279795187
+        }
+      },
+      "duration" : {
+        "startTimestampMs" : "1604698771988",
+        "endTimestampMs" : "1604700290073"
+      },
+      "distance" : 10673,
+      "activityType" : "IN_PASSENGER_VEHICLE",
+      "confidence" : "HIGH",
+      "activities" : [ {
+        "activityType" : "IN_PASSENGER_VEHICLE",
+        "probability" : 85.48438549041748
+      }, {
+        "activityType" : "CYCLING",
+        "probability" : 4.362621530890465
+      }, {
+        "activityType" : "WALKING",
+        "probability" : 4.3325066566467285
+      }, {
+        "activityType" : "MOTORCYCLING",
+        "probability" : 3.5850372165441513
+      }, {
+        "activityType" : "STILL",
+        "probability" : 1.4830507338047028
+      }, {
+        "activityType" : "RUNNING",
+        "probability" : 0.26213417295366526
+      }, {
+        "activityType" : "IN_FERRY",
+        "probability" : 0.22124077659100294
+      }, {
+        "activityType" : "IN_BUS",
+        "probability" : 0.16187637811526656
+      }, {
+        "activityType" : "FLYING",
+        "probability" : 0.03082248440477997
+      }, {
+        "activityType" : "SAILING",
+        "probability" : 0.022864302445668727
+      }, {
+        "activityType" : "IN_TRAIN",
+        "probability" : 0.022011983674019575
+      }, {
+        "activityType" : "SKIING",
+        "probability" : 0.014539783296640962
+      }, {
+        "activityType" : "IN_TRAM",
+        "probability" : 0.00888161375769414
+      }, {
+        "activityType" : "IN_SUBWAY",
+        "probability" : 0.007902399374870583
+      }, {
+        "activityType" : "IN_VEHICLE",
+        "probability" : 1.2142213563492987E-4
+      } ],
+      "waypointPath" : {
+        "waypoints" : [ {
+          "latE7" : 491495819,
+          "lngE7" : -1227797470
+        }, {
+          "latE7" : 491762161,
+          "lngE7" : -1228277053
+        }, {
+          "latE7" : 491808090,
+          "lngE7" : -1228348770
+        }, {
+          "latE7" : 491519203,
+          "lngE7" : -1227789459
+        }, {
+          "latE7" : 491494026,
+          "lngE7" : -1227803192
+        } ]
+      },
+      "simplifiedRawPath" : {
+        "points" : [ {
+          "latE7" : 491808891,
+          "lngE7" : -1228351822,
+          "timestampMs" : "1604699502859",
+          "accuracyMeters" : 57
+        } ]
+      },
+      "parkingEvent" : {
+        "timestampMs" : "1604700378652",
+        "location" : {
+          "latitudeE7" : 491493668,
+          "longitudeE7" : -1227797344,
+          "accuracyMetres" : 80
+        }
+      }
+    }
+  }, {
+    "placeVisit" : {
+      "location" : {
+        "latitudeE7" : 491493149,
+        "longitudeE7" : -1227798615,
+        "placeId" : "ChIJ3x5UHKTQhVQRevn4yUfttvc",
+        "address" : "8036 159a St, Surrey, BC V4N 0K1, Canada",
+        "semanticType" : "TYPE_HOME",
+        "sourceInfo" : {
+          "deviceTag" : -279795187
+        },
+        "locationConfidence" : 92.44815
+      },
+      "duration" : {
+        "startTimestampMs" : "1604700290073",
+        "endTimestampMs" : "1604706692826"
+      },
+      "placeConfidence" : "HIGH_CONFIDENCE",
+      "centerLatE7" : 491493676,
+      "centerLngE7" : -1227797517,
+      "visitConfidence" : 82,
+      "otherCandidateLocations" : [ {
+        "latitudeE7" : 491493832,
+        "longitudeE7" : -1227795843,
+        "placeId" : "ChIJyy2hGqTQhVQRJU6dhbXpCAQ",
+        "semanticType" : "TYPE_SEARCHED_ADDRESS",
+        "locationConfidence" : 2.8204744
+      }, {
+        "latitudeE7" : 491490620,
+        "longitudeE7" : -1227800580,
+        "placeId" : "ChIJxXz5AqTQhVQRoegY1yO_Jgc",
+        "semanticType" : "TYPE_SEARCHED_ADDRESS",
+        "locationConfidence" : 2.2360234
+      }, {
+        "latitudeE7" : 491492123,
+        "longitudeE7" : -1227800055,
+        "placeId" : "ChIJ2ZxOA6TQhVQRbSHX9_rtKRI",
+        "semanticType" : "TYPE_SEARCHED_ADDRESS",
+        "locationConfidence" : 0.38063738
+      }, {
+        "latitudeE7" : 491495900,
+        "longitudeE7" : -1227802470,
+        "placeId" : "ChIJ2flAGaTQhVQRyFQTsRBjJzw",
+        "locationConfidence" : 0.24850422
+      } ],
+      "editConfirmationStatus" : "NOT_CONFIRMED"
+    }
+  }, {
+    "activitySegment" : {
+      "startLocation" : {
+        "latitudeE7" : 491495589,
+        "longitudeE7" : -1227791141,
+        "sourceInfo" : {
+          "deviceTag" : -279795187
+        }
+      },
+      "endLocation" : {
+        "latitudeE7" : 491918466,
+        "longitudeE7" : -1227648180,
+        "sourceInfo" : {
+          "deviceTag" : -279795187
+        }
+      },
+      "duration" : {
+        "startTimestampMs" : "1604706692826",
+        "endTimestampMs" : "1604709509345"
+      },
+      "distance" : 4815,
+      "activityType" : "IN_PASSENGER_VEHICLE",
+      "confidence" : "MEDIUM",
+      "activities" : [ {
+        "activityType" : "IN_PASSENGER_VEHICLE",
+        "probability" : 60.50638556480408
+      }, {
+        "activityType" : "STILL",
+        "probability" : 25.695323944091797
+      }, {
+        "activityType" : "MOTORCYCLING",
+        "probability" : 6.714165955781937
+      }, {
+        "activityType" : "CYCLING",
+        "probability" : 4.003169387578964
+      }, {
+        "activityType" : "WALKING",
+        "probability" : 2.3527227342128754
+      }, {
+        "activityType" : "IN_BUS",
+        "probability" : 0.3448402974754572
+      }, {
+        "activityType" : "IN_FERRY",
+        "probability" : 0.16297742258757353
+      }, {
+        "activityType" : "RUNNING",
+        "probability" : 0.11912202462553978
+      }, {
+        "activityType" : "IN_TRAIN",
+        "probability" : 0.03743178094737232
+      }, {
+        "activityType" : "IN_SUBWAY",
+        "probability" : 0.03164023801218718
+      }, {
+        "activityType" : "FLYING",
+        "probability" : 0.013824898633174598
+      }, {
+        "activityType" : "SKIING",
+        "probability" : 0.007065060344757512
+      }, {
+        "activityType" : "SAILING",
+        "probability" : 0.006727917934767902
+      }, {
+        "activityType" : "IN_TRAM",
+        "probability" : 0.004517127672443166
+      }, {
+        "activityType" : "IN_VEHICLE",
+        "probability" : 8.744578963160166E-5
+      } ],
+      "waypointPath" : {
+        "waypoints" : [ {
+          "latE7" : 491495857,
+          "lngE7" : -1227791137
+        }, {
+          "latE7" : 491519165,
+          "lngE7" : -1227787780
+        }, {
+          "latE7" : 491919670,
+          "lngE7" : -1227648162
+        } ]
+      },
+      "parkingEvent" : {
+        "timestampMs" : "1604709661011",
+        "location" : {
+          "latitudeE7" : 491918890,
+          "longitudeE7" : -1227648279,
+          "accuracyMetres" : 72
+        }
+      }
+    }
+  }, {
+    "placeVisit" : {
+      "location" : {
+        "latitudeE7" : 491917702,
+        "longitudeE7" : -1227645347,
+        "placeId" : "ChIJD9CU7N_WhVQRymrNYv29LMg",
+        "address" : "16499 104 Ave\nSurrey, BC V4N 1Z6\nCanada",
+        "name" : "16499 104 Ave",
+        "sourceInfo" : {
+          "deviceTag" : -279795187
+        },
+        "locationConfidence" : 43.519432
+      },
+      "duration" : {
+        "startTimestampMs" : "1604709509345",
+        "endTimestampMs" : "1604716925614"
+      },
+      "placeConfidence" : "MEDIUM_CONFIDENCE",
+      "centerLatE7" : 491919059,
+      "centerLngE7" : -1227648963,
+      "visitConfidence" : 92,
+      "otherCandidateLocations" : [ {
+        "latitudeE7" : 491921591,
+        "longitudeE7" : -1227647135,
+        "placeId" : "ChIJi-fl6N_WhVQRhQk0iEVWx4s",
+        "locationConfidence" : 40.55568
+      }, {
+        "latitudeE7" : 491914620,
+        "longitudeE7" : -1227669730,
+        "placeId" : "ChIJWQXXDyDXhVQRF7WkboFB3IE",
+        "locationConfidence" : 6.445021
+      }, {
+        "latitudeE7" : 491917390,
+        "longitudeE7" : -1227645749,
+        "placeId" : "ChIJTbTC7N_WhVQR7PoZ7g1W0ik",
+        "locationConfidence" : 6.0096426
+      }, {
+        "latitudeE7" : 491915240,
+        "longitudeE7" : -1227608340,
+        "placeId" : "ChIJk0k_Vd7WhVQR3zRmqNSFHK0",
+        "locationConfidence" : 1.2870532
+      }, {
+        "latitudeE7" : 491921870,
+        "longitudeE7" : -1227649457,
+        "placeId" : "ChIJt_5M79_WhVQRvTlwD6CpQZU",
+        "locationConfidence" : 1.0831788
+      } ],
+      "editConfirmationStatus" : "NOT_CONFIRMED"
+    }
+  }, {
+    "activitySegment" : {
+      "startLocation" : {
+        "latitudeE7" : 491918645,
+        "longitudeE7" : -1227648884,
+        "sourceInfo" : {
+          "deviceTag" : -279795187
+        }
+      },
+      "endLocation" : {
+        "latitudeE7" : 492741730,
+        "longitudeE7" : -1231231782,
+        "sourceInfo" : {
+          "deviceTag" : -279795187
+        }
+      },
+      "duration" : {
+        "startTimestampMs" : "1604716925614",
+        "endTimestampMs" : "1604721430236"
+      },
+      "distance" : 30640,
+      "activityType" : "IN_SUBWAY",
+      "confidence" : "LOW",
+      "activities" : [ {
+        "activityType" : "IN_SUBWAY",
+        "probability" : 53.45395803451538
+      }, {
+        "activityType" : "IN_BUS",
+        "probability" : 11.885126680135727
+      }, {
+        "activityType" : "WALKING",
+        "probability" : 9.942805022001266
+      }, {
+        "activityType" : "IN_PASSENGER_VEHICLE",
+        "probability" : 8.758550137281418
+      }, {
+        "activityType" : "IN_TRAIN",
+        "probability" : 7.346869260072708
+      }, {
+        "activityType" : "STILL",
+        "probability" : 4.122123122215271
+      }, {
+        "activityType" : "MOTORCYCLING",
+        "probability" : 1.65183637291193
+      }, {
+        "activityType" : "CYCLING",
+        "probability" : 1.189893949776888
+      }, {
+        "activityType" : "IN_TRAM",
+        "probability" : 1.0187418200075626
+      }, {
+        "activityType" : "RUNNING",
+        "probability" : 0.3372849663719535
+      }, {
+        "activityType" : "FLYING",
+        "probability" : 0.1489285030402243
+      }, {
+        "activityType" : "IN_FERRY",
+        "probability" : 0.13838120503351092
+      }, {
+        "activityType" : "SAILING",
+        "probability" : 0.003563217615010217
+      }, {
+        "activityType" : "IN_VEHICLE",
+        "probability" : 0.0010884436051128432
+      }, {
+        "activityType" : "SKIING",
+        "probability" : 8.402006642427295E-4
+      } ],
+      "simplifiedRawPath" : {
+        "points" : [ {
+          "latE7" : 491828012,
+          "lngE7" : -1228447192,
+          "timestampMs" : "1604718127495",
+          "accuracyMeters" : 39
+        }, {
+          "latE7" : 491839519,
+          "lngE7" : -1228448603,
+          "timestampMs" : "1604718338108",
+          "accuracyMeters" : 47
+        }, {
+          "latE7" : 491885691,
+          "lngE7" : -1228475247,
+          "timestampMs" : "1604718371213",
+          "accuracyMeters" : 42
+        }, {
+          "latE7" : 491988813,
+          "lngE7" : -1228514385,
+          "timestampMs" : "1604718491217",
+          "accuracyMeters" : 53
+        }, {
+          "latE7" : 492075665,
+          "lngE7" : -1228677399,
+          "timestampMs" : "1604718613689",
+          "accuracyMeters" : 72
+        }, {
+          "latE7" : 492062156,
+          "lngE7" : -1228992739,
+          "timestampMs" : "1604718805390",
+          "accuracyMeters" : 17
+        }, {
+          "latE7" : 492064096,
+          "lngE7" : -1229029769,
+          "timestampMs" : "1604718829920",
+          "accuracyMeters" : 150
+        }, {
+          "latE7" : 492047743,
+          "lngE7" : -1229063778,
+          "timestampMs" : "1604718872943",
+          "accuracyMeters" : 27
+        }, {
+          "latE7" : 492048124,
+          "lngE7" : -1229067463,
+          "timestampMs" : "1604718893184",
+          "accuracyMeters" : 150
+        }, {
+          "latE7" : 492047343,
+          "lngE7" : -1229065118,
+          "timestampMs" : "1604718905000",
+          "accuracyMeters" : 10
+        }, {
+          "latE7" : 492048436,
+          "lngE7" : -1229066050,
+          "timestampMs" : "1604718911448",
+          "accuracyMeters" : 150
+        }, {
+          "latE7" : 492262802,
+          "lngE7" : -1230044452,
+          "timestampMs" : "1604719574000",
+          "accuracyMeters" : 47
+        }, {
+          "latE7" : 492259486,
+          "lngE7" : -1230041861,
+          "timestampMs" : "1604719592000",
+          "accuracyMeters" : 34
+        }, {
+          "latE7" : 492275303,
+          "lngE7" : -1230076665,
+          "timestampMs" : "1604719642000",
+          "accuracyMeters" : 12
+        }, {
+          "latE7" : 492480548,
+          "lngE7" : -1230558524,
+          "timestampMs" : "1604719992571",
+          "accuracyMeters" : 32
+        }, {
+          "latE7" : 492483048,
+          "lngE7" : -1230561146,
+          "timestampMs" : "1604720033174",
+          "accuracyMeters" : 150
+        }, {
+          "latE7" : 492640621,
+          "lngE7" : -1230700934,
+          "timestampMs" : "1604720215704",
+          "accuracyMeters" : 59
+        }, {
+          "latE7" : 492787232,
+          "lngE7" : -1231074556,
+          "timestampMs" : "1604720450981",
+          "accuracyMeters" : 28
+        }, {
+          "latE7" : 492832623,
+          "lngE7" : -1231156861,
+          "timestampMs" : "1604720571601",
+          "accuracyMeters" : 21
+        }, {
+          "latE7" : 492831302,
+          "lngE7" : -1231174617,
+          "timestampMs" : "1604720704903",
+          "accuracyMeters" : 150
+        }, {
+          "latE7" : 492822333,
+          "lngE7" : -1231185542,
+          "timestampMs" : "1604720864967",
+          "accuracyMeters" : 98
+        }, {
+          "latE7" : 492743796,
+          "lngE7" : -1231219551,
+          "timestampMs" : "1604721290151",
+          "accuracyMeters" : 13
+        }, {
+          "latE7" : 492746349,
+          "lngE7" : -1231220696,
+          "timestampMs" : "1604721322000",
+          "accuracyMeters" : 19
+        }, {
+          "latE7" : 492745246,
+          "lngE7" : -1231221109,
+          "timestampMs" : "1604721361349",
+          "accuracyMeters" : 13
+        }, {
+          "latE7" : 492745773,
+          "lngE7" : -1231221741,
+          "timestampMs" : "1604721376962",
+          "accuracyMeters" : 17
+        } ]
+      }
+    }
+  }, {
+    "placeVisit" : {
+      "location" : {
+        "latitudeE7" : 492741667,
+        "longitudeE7" : -1231241667,
+        "placeId" : "ChIJk__RLNFzhlQR2KDN-ucgMmQ",
+        "address" : "1283 Hamilton St\nVancouver, BC V6B 6K3\nCanada",
+        "name" : "Soho Bar & Billiards",
+        "sourceInfo" : {
+          "deviceTag" : -279795187
+        },
+        "locationConfidence" : 98.81947
+      },
+      "duration" : {
+        "startTimestampMs" : "1604721430236",
+        "endTimestampMs" : "1604731741937"
+      },
+      "placeConfidence" : "HIGH_CONFIDENCE",
+      "centerLatE7" : 492741383,
+      "centerLngE7" : -1231241664,
+      "visitConfidence" : 93,
+      "otherCandidateLocations" : [ {
+        "latitudeE7" : 492743707,
+        "longitudeE7" : -1231244188,
+        "placeId" : "ChIJNfYS29ZzhlQRdJ0iPSENesE",
+        "locationConfidence" : 0.22413503
+      }, {
+        "latitudeE7" : 492745813,
+        "longitudeE7" : -1231218721,
+        "placeId" : "ChIJaa39H9dzhlQRpAVDzySJ7r8",
+        "locationConfidence" : 0.21675271
+      }, {
+        "latitudeE7" : 492742090,
+        "longitudeE7" : -1231240074,
+        "placeId" : "ChIJrZMd09ZzhlQRP1oZU9ehIgk",
+        "locationConfidence" : 0.06228949
+      }, {
+        "latitudeE7" : 492742853,
+        "longitudeE7" : -1231239474,
+        "placeId" : "ChIJZTIYBNBzhlQRGKVpjg2ZmPI",
+        "locationConfidence" : 0.040369816
+      } ],
+      "editConfirmationStatus" : "NOT_CONFIRMED"
+    }
+  }, {
+    "activitySegment" : {
+      "startLocation" : {
+        "latitudeE7" : 492739283,
+        "longitudeE7" : -1231240887,
+        "sourceInfo" : {
+          "deviceTag" : -279795187
+        }
+      },
+      "endLocation" : {
+        "latitudeE7" : 492877748,
+        "longitudeE7" : -1231379274,
+        "sourceInfo" : {
+          "deviceTag" : -279795187
+        }
+      },
+      "duration" : {
+        "startTimestampMs" : "1604731741937",
+        "endTimestampMs" : "1604732384000"
+      },
+      "distance" : 2875,
+      "activityType" : "IN_PASSENGER_VEHICLE",
+      "confidence" : "HIGH",
+      "activities" : [ {
+        "activityType" : "IN_PASSENGER_VEHICLE",
+        "probability" : 96.83318734169006
+      }, {
+        "activityType" : "WALKING",
+        "probability" : 1.383489929139614
+      }, {
+        "activityType" : "STILL",
+        "probability" : 0.8541830815374851
+      }, {
+        "activityType" : "MOTORCYCLING",
+        "probability" : 0.5175002384930849
+      }, {
+        "activityType" : "CYCLING",
+        "probability" : 0.24043405428528786
+      }, {
+        "activityType" : "IN_BUS",
+        "probability" : 0.07672299980185926
+      }, {
+        "activityType" : "RUNNING",
+        "probability" : 0.05695525323972106
+      }, {
+        "activityType" : "FLYING",
+        "probability" : 0.010899877815973014
+      }, {
+        "activityType" : "IN_TRAIN",
+        "probability" : 0.009552554547553882
+      }, {
+        "activityType" : "IN_FERRY",
+        "probability" : 0.009261471859645098
+      }, {
+        "activityType" : "IN_SUBWAY",
+        "probability" : 0.004716833427664824
+      }, {
+        "activityType" : "IN_TRAM",
+        "probability" : 0.0016585870980634354
+      }, {
+        "activityType" : "SKIING",
+        "probability" : 8.819452887109946E-4
+      }, {
+        "activityType" : "SAILING",
+        "probability" : 5.470260930451332E-4
+      }, {
+        "activityType" : "IN_VEHICLE",
+        "probability" : 1.6628393950668396E-5
+      } ],
+      "waypointPath" : {
+        "waypoints" : [ {
+          "latE7" : 492736244,
+          "lngE7" : -1231256561
+        }, {
+          "latE7" : 492742271,
+          "lngE7" : -1231203079
+        }, {
+          "latE7" : 492748298,
+          "lngE7" : -1231191711
+        }, {
+          "latE7" : 492801399,
+          "lngE7" : -1231211776
+        }, {
+          "latE7" : 492820358,
+          "lngE7" : -1231240997
+        }, {
+          "latE7" : 492849235,
+          "lngE7" : -1231316528
+        }, {
+          "latE7" : 492877769,
+          "lngE7" : -1231379318
+        } ]
+      },
+      "simplifiedRawPath" : {
+        "points" : [ {
+          "latE7" : 492747612,
+          "lngE7" : -1231191864,
+          "timestampMs" : "1604732059000",
+          "accuracyMeters" : 6
+        }, {
+          "latE7" : 492819824,
+          "lngE7" : -1231241760,
+          "timestampMs" : "1604732187000",
+          "accuracyMeters" : 13
+        } ]
+      },
+      "parkingEvent" : {
+        "timestampMs" : "1604732546879",
+        "location" : {
+          "latitudeE7" : 492879348,
+          "longitudeE7" : -1231384329,
+          "accuracyMetres" : 85
+        }
+      }
+    }
+  }, {
+    "placeVisit" : {
+      "location" : {
+        "latitudeE7" : 492880804,
+        "longitudeE7" : -1231382276,
+        "placeId" : "ChIJmXXZjihyhlQRXkhNQBVFJao",
+        "address" : "1721 Comox St\nVancouver, BC V6G 1P5\nCanada",
+        "name" : "1721 Comox St",
+        "semanticType" : "TYPE_SEARCHED_ADDRESS",
+        "sourceInfo" : {
+          "deviceTag" : -279795187
+        },
+        "locationConfidence" : 94.54982
+      },
+      "duration" : {
+        "startTimestampMs" : "1604732384000",
+        "endTimestampMs" : "1604786977479"
+      },
+      "placeConfidence" : "HIGH_CONFIDENCE",
+      "centerLatE7" : 492881633,
+      "centerLngE7" : -1231380150,
+      "visitConfidence" : 93,
+      "otherCandidateLocations" : [ {
+        "latitudeE7" : 493042584,
+        "longitudeE7" : -1231442523,
+        "placeId" : "ChIJo-QmrYxxhlQRFuIJtJ1jSjY",
+        "locationConfidence" : 0.48392555
+      }, {
+        "latitudeE7" : 492888120,
+        "longitudeE7" : -1231393450,
+        "placeId" : "ChIJsboHKSZyhlQRE0ezqMynvWY",
+        "locationConfidence" : 0.30477905
+      }, {
+        "latitudeE7" : 492890249,
+        "longitudeE7" : -1231383538,
+        "placeId" : "ChIJVQhLgShyhlQRYu1vLai0tp0",
+        "locationConfidence" : 0.15046018
+      }, {
+        "latitudeE7" : 492884739,
+        "longitudeE7" : -1231385573,
+        "placeId" : "ChIJJcrt6mpzhlQRQjaRg2dolSY",
+        "locationConfidence" : 0.11970883
+      } ],
+      "editConfirmationStatus" : "NOT_CONFIRMED"
+    }
+  }, {
+    "activitySegment" : {
+      "startLocation" : {
+        "latitudeE7" : 492881936,
+        "longitudeE7" : -1231387585,
+        "sourceInfo" : {
+          "deviceTag" : -279795187
+        }
+      },
+      "endLocation" : {
+        "latitudeE7" : 492878008,
+        "longitudeE7" : -1231409309,
+        "sourceInfo" : {
+          "deviceTag" : -279795187
+        }
+      },
+      "duration" : {
+        "startTimestampMs" : "1604786977479",
+        "endTimestampMs" : "1604787287923"
+      },
+      "distance" : 163,
+      "activityType" : "WALKING",
+      "confidence" : "HIGH",
+      "activities" : [ {
+        "activityType" : "WALKING",
+        "probability" : 95.5946147441864
+      }, {
+        "activityType" : "CYCLING",
+        "probability" : 2.4389350786805153
+      }, {
+        "activityType" : "IN_PASSENGER_VEHICLE",
+        "probability" : 0.9097455069422722
+      }, {
+        "activityType" : "MOTORCYCLING",
+        "probability" : 0.36973697133362293
+      }, {
+        "activityType" : "RUNNING",
+        "probability" : 0.33090561628341675
+      }, {
+        "activityType" : "STILL",
+        "probability" : 0.22722193971276283
+      }, {
+        "activityType" : "IN_BUS",
+        "probability" : 0.07521798252128065
+      }, {
+        "activityType" : "IN_FERRY",
+        "probability" : 0.022026727674528956
+      }, {
+        "activityType" : "IN_TRAIN",
+        "probability" : 0.018063861352857202
+      }, {
+        "activityType" : "FLYING",
+        "probability" : 0.003816379467025399
+      }, {
+        "activityType" : "SKIING",
+        "probability" : 0.0037406192859634757
+      }, {
+        "activityType" : "IN_SUBWAY",
+        "probability" : 0.0030735238397028297
+      }, {
+        "activityType" : "SAILING",
+        "probability" : 0.0016072039215941913
+      }, {
+        "activityType" : "IN_TRAM",
+        "probability" : 0.001269474068976706
+      }, {
+        "activityType" : "IN_VEHICLE",
+        "probability" : 2.6573877676128177E-5
+      } ],
+      "waypointPath" : {
+        "waypoints" : [ {
+          "latE7" : 492881698,
+          "lngE7" : -1231387939
+        }, {
+          "latE7" : 492884826,
+          "lngE7" : -1231399078
+        }, {
+          "latE7" : 492877998,
+          "lngE7" : -1231409301
+        } ]
+      }
+    }
+  }, {
+    "placeVisit" : {
+      "location" : {
+        "latitudeE7" : 492863114,
+        "longitudeE7" : -1231434865,
+        "placeId" : "ChIJ86zkaC9yhlQR4GhBA8iTiy4",
+        "address" : "Beach Ave\nVancouver, BC V6C 3C1\nCanada",
+        "name" : "English Bay Beach",
+        "sourceInfo" : {
+          "deviceTag" : -279795187
+        },
+        "locationConfidence" : 76.82664
+      },
+      "duration" : {
+        "startTimestampMs" : "1604787287923",
+        "endTimestampMs" : "1604789643077"
+      },
+      "placeConfidence" : "MEDIUM_CONFIDENCE",
+      "centerLatE7" : 492880362,
+      "centerLngE7" : -1231420592,
+      "visitConfidence" : 85,
+      "otherCandidateLocations" : [ {
+        "latitudeE7" : 493042584,
+        "longitudeE7" : -1231442523,
+        "placeId" : "ChIJo-QmrYxxhlQRFuIJtJ1jSjY",
+        "locationConfidence" : 5.088692
+      }, {
+        "latitudeE7" : 492877464,
+        "longitudeE7" : -1231409009,
+        "placeId" : "ChIJYwRQryhyhlQRcFek5w_qOr4",
+        "locationConfidence" : 4.552931
+      }, {
+        "latitudeE7" : 492880804,
+        "longitudeE7" : -1231382276,
+        "placeId" : "ChIJmXXZjihyhlQRXkhNQBVFJao",
+        "semanticType" : "TYPE_SEARCHED_ADDRESS",
+        "locationConfidence" : 3.859438
+      }, {
+        "latitudeE7" : 492877730,
+        "longitudeE7" : -1231411660,
+        "placeId" : "ChIJQ67vqChyhlQR_fyus9sH3dQ",
+        "locationConfidence" : 3.1892235
+      }, {
+        "latitudeE7" : 492878045,
+        "longitudeE7" : -1231407778,
+        "placeId" : "ChIJh1tUryhyhlQRNswVU9vyVmI",
+        "locationConfidence" : 2.7554986
+      }, {
+        "latitudeE7" : 492878313,
+        "longitudeE7" : -1231413188,
+        "placeId" : "ChIJtXPMTvBzhlQRXRnWuohXyhY",
+        "locationConfidence" : 0.7957157
+      }, {
+        "latitudeE7" : 492876782,
+        "longitudeE7" : -1231410182,
+        "placeId" : "ChIJFfSr3PxzhlQROOe-E0bdNxk",
+        "locationConfidence" : 0.7638791
+      } ],
+      "editConfirmationStatus" : "NOT_CONFIRMED",
+      "simplifiedRawPath" : {
+        "points" : [ {
+          "latE7" : 492878008,
+          "lngE7" : -1231409309,
+          "timestampMs" : "1604787287923",
+          "accuracyMeters" : 11
+        }, {
+          "latE7" : 492874227,
+          "lngE7" : -1231414561,
+          "timestampMs" : "1604787741826",
+          "accuracyMeters" : 11
+        }, {
+          "latE7" : 492882779,
+          "lngE7" : -1231425796,
+          "timestampMs" : "1604787952107",
+          "accuracyMeters" : 73
+        }, {
+          "latE7" : 492890508,
+          "lngE7" : -1231436157,
+          "timestampMs" : "1604788005310",
+          "accuracyMeters" : 46
+        }, {
+          "latE7" : 492884319,
+          "lngE7" : -1231424614,
+          "timestampMs" : "1604789120914",
+          "accuracyMeters" : 59
+        } ]
+      }
+    }
+  }, {
+    "activitySegment" : {
+      "startLocation" : {
+        "latitudeE7" : 492879883,
+        "longitudeE7" : -1231431469,
+        "sourceInfo" : {
+          "deviceTag" : -279795187
+        }
+      },
+      "endLocation" : {
+        "latitudeE7" : 492881572,
+        "longitudeE7" : -1231380599,
+        "sourceInfo" : {
+          "deviceTag" : -279795187
+        }
+      },
+      "duration" : {
+        "startTimestampMs" : "1604789643077",
+        "endTimestampMs" : "1604791941940"
+      },
+      "distance" : 418,
+      "activityType" : "WALKING",
+      "confidence" : "HIGH",
+      "activities" : [ {
+        "activityType" : "WALKING",
+        "probability" : 92.67627596855164
+      }, {
+        "activityType" : "STILL",
+        "probability" : 4.321538656949997
+      }, {
+        "activityType" : "CYCLING",
+        "probability" : 1.5038901939988136
+      }, {
+        "activityType" : "IN_PASSENGER_VEHICLE",
+        "probability" : 0.9204117581248283
+      }, {
+        "activityType" : "RUNNING",
+        "probability" : 0.2809526165947318
+      }, {
+        "activityType" : "IN_FERRY",
+        "probability" : 0.08489674655720592
+      }, {
+        "activityType" : "MOTORCYCLING",
+        "probability" : 0.0697905954439193
+      }, {
+        "activityType" : "SKIING",
+        "probability" : 0.04623799177352339
+      }, {
+        "activityType" : "IN_TRAIN",
+        "probability" : 0.039698975160717964
+      }, {
+        "activityType" : "IN_BUS",
+        "probability" : 0.03928259538952261
+      }, {
+        "activityType" : "SAILING",
+        "probability" : 0.009185461385641247
+      }, {
+        "activityType" : "FLYING",
+        "probability" : 0.004109279325348325
+      }, {
+        "activityType" : "IN_TRAM",
+        "probability" : 0.002124013553839177
+      }, {
+        "activityType" : "IN_SUBWAY",
+        "probability" : 0.0015711248124716803
+      }, {
+        "activityType" : "IN_VEHICLE",
+        "probability" : 2.7504862032401434E-5
+      } ],
+      "waypointPath" : {
+        "waypoints" : [ {
+          "latE7" : 492880172,
+          "lngE7" : -1231429977
+        }, {
+          "latE7" : 492878074,
+          "lngE7" : -1231378021
+        }, {
+          "latE7" : 492882118,
+          "lngE7" : -1231379776
+        } ]
+      }
+    }
+  }, {
+    "placeVisit" : {
+      "location" : {
+        "latitudeE7" : 492880804,
+        "longitudeE7" : -1231382276,
+        "placeId" : "ChIJmXXZjihyhlQRXkhNQBVFJao",
+        "address" : "1721 Comox St\nVancouver, BC V6G 1P5\nCanada",
+        "name" : "1721 Comox St",
+        "semanticType" : "TYPE_SEARCHED_ADDRESS",
+        "sourceInfo" : {
+          "deviceTag" : -279795187
+        },
+        "locationConfidence" : 94.8358
+      },
+      "duration" : {
+        "startTimestampMs" : "1604791941940",
+        "endTimestampMs" : "1604795102733"
+      },
+      "placeConfidence" : "HIGH_CONFIDENCE",
+      "centerLatE7" : 492880936,
+      "centerLngE7" : -1231376836,
+      "visitConfidence" : 89,
+      "otherCandidateLocations" : [ {
+        "latitudeE7" : 493042584,
+        "longitudeE7" : -1231442523,
+        "placeId" : "ChIJo-QmrYxxhlQRFuIJtJ1jSjY",
+        "locationConfidence" : 0.78739
+      }, {
+        "latitudeE7" : 492890249,
+        "longitudeE7" : -1231383538,
+        "placeId" : "ChIJVQhLgShyhlQRYu1vLai0tp0",
+        "locationConfidence" : 0.30042833
+      }, {
+        "latitudeE7" : 492888120,
+        "longitudeE7" : -1231393450,
+        "placeId" : "ChIJsboHKSZyhlQRE0ezqMynvWY",
+        "locationConfidence" : 0.20556633
+      }, {
+        "latitudeE7" : 492864120,
+        "longitudeE7" : -1231406500,
+        "placeId" : "ChIJZbuBMy9yhlQRJWuO3LB_GlY",
+        "locationConfidence" : 0.074738756
+      } ],
+      "editConfirmationStatus" : "NOT_CONFIRMED"
+    }
+  }, {
+    "activitySegment" : {
+      "startLocation" : {
+        "latitudeE7" : 492878874,
+        "longitudeE7" : -1231366083,
+        "sourceInfo" : {
+          "deviceTag" : -279795187
+        }
+      },
+      "endLocation" : {
+        "latitudeE7" : 492860689,
+        "longitudeE7" : -1231213493,
+        "sourceInfo" : {
+          "deviceTag" : -279795187
+        }
+      },
+      "duration" : {
+        "startTimestampMs" : "1604795102733",
+        "endTimestampMs" : "1604796297000"
+      },
+      "distance" : 1495,
+      "activityType" : "WALKING",
+      "confidence" : "HIGH",
+      "activities" : [ {
+        "activityType" : "WALKING",
+        "probability" : 92.93867349624634
+      }, {
+        "activityType" : "STILL",
+        "probability" : 2.970074862241745
+      }, {
+        "activityType" : "IN_PASSENGER_VEHICLE",
+        "probability" : 1.2849761173129082
+      }, {
+        "activityType" : "IN_SUBWAY",
+        "probability" : 0.7847976870834827
+      }, {
+        "activityType" : "CYCLING",
+        "probability" : 0.5007170606404543
+      }, {
+        "activityType" : "IN_TRAIN",
+        "probability" : 0.4817803855985403
+      }, {
+        "activityType" : "IN_BUS",
+        "probability" : 0.4458671435713768
+      }, {
+        "activityType" : "RUNNING",
+        "probability" : 0.36486934404820204
+      }, {
+        "activityType" : "MOTORCYCLING",
+        "probability" : 0.07895886083133519
+      }, {
+        "activityType" : "IN_TRAM",
+        "probability" : 0.06562225753441453
+      }, {
+        "activityType" : "IN_FERRY",
+        "probability" : 0.05555743700824678
+      }, {
+        "activityType" : "FLYING",
+        "probability" : 0.02071595808956772
+      }, {
+        "activityType" : "SKIING",
+        "probability" : 0.0037261816032696515
+      }, {
+        "activityType" : "SAILING",
+        "probability" : 0.003449446739978157
+      }, {
+        "activityType" : "IN_VEHICLE",
+        "probability" : 2.1529156128963223E-4
+      } ],
+      "waypointPath" : {
+        "waypoints" : [ {
+          "latE7" : 492879524,
+          "lngE7" : -1231365127
+        }, {
+          "latE7" : 492882461,
+          "lngE7" : -1231341857
+        }, {
+          "latE7" : 492860679,
+          "lngE7" : -1231213455
+        } ]
+      }
+    }
+  }, {
+    "placeVisit" : {
+      "location" : {
+        "latitudeE7" : 492854669,
+        "longitudeE7" : -1231201262,
+        "placeId" : "ChIJWWb7iIFxhlQRBL4QZPdZs4I",
+        "address" : "Vancouver, BC V6C 0A4\nCanada",
+        "name" : "Burrard",
+        "sourceInfo" : {
+          "deviceTag" : -279795187
+        },
+        "locationConfidence" : 88.44434
+      },
+      "duration" : {
+        "startTimestampMs" : "1604796297000",
+        "endTimestampMs" : "1604796616958"
+      },
+      "placeConfidence" : "MEDIUM_CONFIDENCE",
+      "centerLatE7" : 492860689,
+      "centerLngE7" : -1231213493,
+      "visitConfidence" : 61,
+      "otherCandidateLocations" : [ {
+        "latitudeE7" : 492853894,
+        "longitudeE7" : -1231218372,
+        "placeId" : "ChIJhbhUooFxhlQR3jo-CmYB-4s",
+        "locationConfidence" : 1.828891
+      }, {
+        "latitudeE7" : 492865471,
+        "longitudeE7" : -1231201099,
+        "placeId" : "ChIJa-aL1INxhlQRWq9NaDq3mg0",
+        "locationConfidence" : 1.233691
+      }, {
+        "latitudeE7" : 492858433,
+        "longitudeE7" : -1231208067,
+        "placeId" : "ChIJuSjYgoFxhlQRkNmzBbPyqU4",
+        "locationConfidence" : 0.34180284
+      }, {
+        "latitudeE7" : 492857790,
+        "longitudeE7" : -1231221400,
+        "placeId" : "ChIJg4dBo4ZxhlQRZYoVbZsRHtQ",
+        "locationConfidence" : 0.08625686
+      } ],
+      "editConfirmationStatus" : "NOT_CONFIRMED"
+    }
+  }, {
+    "activitySegment" : {
+      "startLocation" : {
+        "latitudeE7" : 492832951,
+        "longitudeE7" : -1231145473,
+        "sourceInfo" : {
+          "deviceTag" : -279795187
+        }
+      },
+      "endLocation" : {
+        "latitudeE7" : 491839567,
+        "longitudeE7" : -1228450451,
+        "sourceInfo" : {
+          "deviceTag" : -279795187
+        }
+      },
+      "duration" : {
+        "startTimestampMs" : "1604796616958",
+        "endTimestampMs" : "1604798895780"
+      },
+      "distance" : 22858,
+      "activityType" : "IN_SUBWAY",
+      "confidence" : "MEDIUM",
+      "activities" : [ {
+        "activityType" : "IN_SUBWAY",
+        "probability" : 69.68907117843628
+      }, {
+        "activityType" : "IN_TRAIN",
+        "probability" : 7.8323036432266235
+      }, {
+        "activityType" : "IN_PASSENGER_VEHICLE",
+        "probability" : 7.565157115459442
+      }, {
+        "activityType" : "IN_BUS",
+        "probability" : 5.87306022644043
+      }, {
+        "activityType" : "WALKING",
+        "probability" : 4.831291735172272
+      }, {
+        "activityType" : "STILL",
+        "probability" : 1.1463496834039688
+      }, {
+        "activityType" : "MOTORCYCLING",
+        "probability" : 0.9736375883221626
+      }, {
+        "activityType" : "IN_TRAM",
+        "probability" : 0.7376548834145069
+      }, {
+        "activityType" : "CYCLING",
+        "probability" : 0.6610354408621788
+      }, {
+        "activityType" : "RUNNING",
+        "probability" : 0.35058537032455206
+      }, {
+        "activityType" : "FLYING",
+        "probability" : 0.22246595472097397
+      }, {
+        "activityType" : "IN_FERRY",
+        "probability" : 0.11345004895702004
+      }, {
+        "activityType" : "SAILING",
+        "probability" : 0.003400021159905009
+      }, {
+        "activityType" : "SKIING",
+        "probability" : 2.709526143007679E-4
+      }, {
+        "activityType" : "IN_VEHICLE",
+        "probability" : 2.628413085403736E-4
+      } ],
+      "transitPath" : {
+        "transitStops" : [ {
+          "latitudeE7" : 492791780,
+          "longitudeE7" : -1231092130,
+          "placeId" : "ChIJDRJikHtxhlQRC36gLHt3sJ8",
+          "name" : "Stadium-Chinatown Station"
+        }, {
+          "latitudeE7" : 492730990,
+          "longitudeE7" : -1231003990,
+          "placeId" : "ChIJ32zJGGRxhlQRiZFf-iOqHIM",
+          "name" : "Main Street-Science World Station"
+        }, {
+          "latitudeE7" : 492623170,
+          "longitudeE7" : -1230691790,
+          "placeId" : "ChIJxXimLElxhlQRXI-_0RhcQOM",
+          "name" : "Commercial-Broadway Station"
+        }, {
+          "latitudeE7" : 492482830,
+          "longitudeE7" : -1230559040,
+          "placeId" : "ChIJjXotZLB2hlQRboiC0FUCIDI",
+          "name" : "Nanaimo"
+        }, {
+          "latitudeE7" : 492442360,
+          "longitudeE7" : -1230461360,
+          "placeId" : "ChIJpekAD7x2hlQRlwDHzfPQTTU",
+          "name" : "29th Avenue Station"
+        }, {
+          "latitudeE7" : 492383530,
+          "longitudeE7" : -1230318270,
+          "placeId" : "ChIJCQNPh5R2hlQRYPlAT17spvw",
+          "name" : "Joyce–Collingwood"
+        }, {
+          "latitudeE7" : 492297120,
+          "longitudeE7" : -1230126780,
+          "placeId" : "ChIJdyQeH_V2hlQRoUk2-teHzGo",
+          "name" : "Patterson Station"
+        }, {
+          "latitudeE7" : 492257810,
+          "longitudeE7" : -1230039400,
+          "placeId" : "ChIJmXjJkl52hlQRofcnRLNU2E4",
+          "name" : "Metrotown Station"
+        }, {
+          "latitudeE7" : 492200130,
+          "longitudeE7" : -1229884750,
+          "placeId" : "ChIJN3X0UUR2hlQR6hZuRFDE3BQ",
+          "name" : "Royal Oak"
+        }, {
+          "latitudeE7" : 492119090,
+          "longitudeE7" : -1229591560,
+          "placeId" : "ChIJ4xxmQTJ2hlQRR0PowJGwl7Y",
+          "name" : "Edmonds Station"
+        }, {
+          "latitudeE7" : 492000210,
+          "longitudeE7" : -1229489400,
+          "placeId" : "ChIJV1rqN4LYhVQRzo6PkoMznSA",
+          "name" : "22nd Street Station"
+        }, {
+          "latitudeE7" : 492014060,
+          "longitudeE7" : -1229125730,
+          "placeId" : "ChIJ__szMW7YhVQRRpVx3-d9m8E",
+          "name" : "New Westminster"
+        }, {
+          "latitudeE7" : 492047780,
+          "longitudeE7" : -1229061180,
+          "placeId" : "ChIJY1MTnHLYhVQR4uMFvzwjXBk",
+          "name" : "Columbia"
+        }, {
+          "latitudeE7" : 492043830,
+          "longitudeE7" : -1228741710,
+          "placeId" : "ChIJxUvsuxjYhVQRjrIpOsOyupA",
+          "name" : "Scott Road Station"
+        }, {
+          "latitudeE7" : 491989460,
+          "longitudeE7" : -1228506730,
+          "placeId" : "ChIJI2CG0ofXhVQRwEameHxUVz4",
+          "name" : "Gateway Station"
+        }, {
+          "latitudeE7" : 491895490,
+          "longitudeE7" : -1228479140,
+          "placeId" : "ChIJee9y1irYhVQRE-C8XFqBRHs",
+          "name" : "Surrey Central Station"
+        }, {
+          "latitudeE7" : 491827550,
+          "longitudeE7" : -1228447440,
+          "placeId" : "ChIJtYoaNNHZhVQRlbX75cwScE0",
+          "name" : "King George Station"
+        }, {
+          "latitudeE7" : 491828120,
+          "longitudeE7" : -1228446910,
+          "placeId" : "ChIJtYoaNNHZhVQRlbX75cwScE0",
+          "name" : "King George Station"
+        } ],
+        "name" : "",
+        "hexRgbColor" : "015DAB"
+      },
+      "simplifiedRawPath" : {
+        "points" : [ {
+          "latE7" : 492825319,
+          "lngE7" : -1231162026,
+          "timestampMs" : "1604796650668",
+          "accuracyMeters" : 110
+        }, {
+          "latE7" : 492793570,
+          "lngE7" : -1231098299,
+          "timestampMs" : "1604796737728",
+          "accuracyMeters" : 150
+        }, {
+          "latE7" : 492383434,
+          "lngE7" : -1230318600,
+          "timestampMs" : "1604797408047",
+          "accuracyMeters" : 42
+        }, {
+          "latE7" : 492004178,
+          "lngE7" : -1229138902,
+          "timestampMs" : "1604798228142",
+          "accuracyMeters" : 150
+        }, {
+          "latE7" : 492013315,
+          "lngE7" : -1229126832,
+          "timestampMs" : "1604798250440",
+          "accuracyMeters" : 150
+        }, {
+          "latE7" : 492017753,
+          "lngE7" : -1229129530,
+          "timestampMs" : "1604798281165",
+          "accuracyMeters" : 55
+        }, {
+          "latE7" : 492044155,
+          "lngE7" : -1228739635,
+          "timestampMs" : "1604798542683",
+          "accuracyMeters" : 70
+        }, {
+          "latE7" : 492065861,
+          "lngE7" : -1228621236,
+          "timestampMs" : "1604798625645",
+          "accuracyMeters" : 33
+        }, {
+          "latE7" : 491838157,
+          "lngE7" : -1228442701,
+          "timestampMs" : "1604798895779",
+          "accuracyMeters" : 150
+        } ]
+      }
+    }
+  }, {
+    "placeVisit" : {
+      "location" : {
+        "latitudeE7" : 491827908,
+        "longitudeE7" : -1228447973,
+        "placeId" : "ChIJtYoaNNHZhVQRlbX75cwScE0",
+        "address" : "Surrey, BC V3T 4Y3\nCanada",
+        "name" : "King George Station",
+        "sourceInfo" : {
+          "deviceTag" : -279795187
+        },
+        "locationConfidence" : 94.79279
+      },
+      "duration" : {
+        "startTimestampMs" : "1604798895780",
+        "endTimestampMs" : "1604799231993"
+      },
+      "placeConfidence" : "HIGH_CONFIDENCE",
+      "centerLatE7" : 491837700,
+      "centerLngE7" : -1228451875,
+      "visitConfidence" : 95,
+      "otherCandidateLocations" : [ {
+        "latitudeE7" : 491832010,
+        "longitudeE7" : -1228457060,
+        "placeId" : "ChIJk4gjT9HZhVQRem7o7Or8F-U",
+        "locationConfidence" : 1.1757345
+      }, {
+        "latitudeE7" : 491826218,
+        "longitudeE7" : -1228451477,
+        "placeId" : "ChIJ1TFfrdbZhVQRPtE-h4lqpR4",
+        "locationConfidence" : 0.8801788
+      }, {
+        "latitudeE7" : 491836930,
+        "longitudeE7" : -1228457060,
+        "placeId" : "ChIJJTipU9HZhVQRKxCCUaExcO4",
+        "locationConfidence" : 0.82761246
+      }, {
+        "latitudeE7" : 491863889,
+        "longitudeE7" : -1228483333,
+        "placeId" : "ChIJe7OcgdTZhVQRxVnKiazlQBI",
+        "locationConfidence" : 0.38655385
+      } ],
+      "editConfirmationStatus" : "NOT_CONFIRMED"
+    }
+  }, {
+    "activitySegment" : {
+      "startLocation" : {
+        "latitudeE7" : 491837295,
+        "longitudeE7" : -1228451084,
+        "sourceInfo" : {
+          "deviceTag" : -279795187
+        }
+      },
+      "endLocation" : {
+        "latitudeE7" : 491493729,
+        "longitudeE7" : -1227797197,
+        "sourceInfo" : {
+          "deviceTag" : -279795187
+        }
+      },
+      "duration" : {
+        "startTimestampMs" : "1604799231993",
+        "endTimestampMs" : "1604800787892"
+      },
+      "distance" : 6098,
+      "activityType" : "IN_PASSENGER_VEHICLE",
+      "confidence" : "LOW",
+      "activities" : [ {
+        "activityType" : "IN_PASSENGER_VEHICLE",
+        "probability" : 38.222095370292664
+      }, {
+        "activityType" : "IN_BUS",
+        "probability" : 32.06530511379242
+      }, {
+        "activityType" : "CYCLING",
+        "probability" : 10.237759351730347
+      }, {
+        "activityType" : "WALKING",
+        "probability" : 8.28106552362442
+      }, {
+        "activityType" : "MOTORCYCLING",
+        "probability" : 6.131033226847649
+      }, {
+        "activityType" : "IN_SUBWAY",
+        "probability" : 3.3089611679315567
+      }, {
+        "activityType" : "IN_TRAM",
+        "probability" : 1.2100089341402054
+      }, {
+        "activityType" : "RUNNING",
+        "probability" : 0.2669310662895441
+      }, {
+        "activityType" : "IN_TRAIN",
+        "probability" : 0.16405507922172546
+      }, {
+        "activityType" : "STILL",
+        "probability" : 0.09950821986421943
+      }, {
+        "activityType" : "FLYING",
+        "probability" : 0.005776842590421438
+      }, {
+        "activityType" : "IN_FERRY",
+        "probability" : 0.005720566332456656
+      }, {
+        "activityType" : "IN_VEHICLE",
+        "probability" : 0.0012753941518894862
+      }, {
+        "activityType" : "SKIING",
+        "probability" : 3.4705278721958166E-4
+      }, {
+        "activityType" : "SAILING",
+        "probability" : 1.5530013115494512E-4
+      } ],
+      "waypointPath" : {
+        "waypoints" : [ {
+          "latE7" : 491837310,
+          "lngE7" : -1228451538
+        }, {
+          "latE7" : 491519203,
+          "lngE7" : -1227789459
+        }, {
+          "latE7" : 491495819,
+          "lngE7" : -1227797164
+        } ]
+      },
+      "parkingEvent" : {
+        "timestampMs" : "1604800787892",
+        "location" : {
+          "latitudeE7" : 491493729,
+          "longitudeE7" : -1227797197,
+          "accuracyMetres" : 91
+        }
+      }
+    }
+  }, {
+    "placeVisit" : {
+      "location" : {
+        "latitudeE7" : 491493149,
+        "longitudeE7" : -1227798615,
+        "placeId" : "ChIJ3x5UHKTQhVQRevn4yUfttvc",
+        "address" : "8036 159a St, Surrey, BC V4N 0K1, Canada",
+        "semanticType" : "TYPE_HOME",
+        "sourceInfo" : {
+          "deviceTag" : -279795187
+        },
+        "locationConfidence" : 94.395386
+      },
+      "duration" : {
+        "startTimestampMs" : "1604800787892",
+        "endTimestampMs" : "1604878385875"
+      },
+      "placeConfidence" : "HIGH_CONFIDENCE",
+      "centerLatE7" : 491493644,
+      "centerLngE7" : -1227797271,
+      "visitConfidence" : 94,
+      "otherCandidateLocations" : [ {
+        "latitudeE7" : 491493832,
+        "longitudeE7" : -1227795843,
+        "placeId" : "ChIJyy2hGqTQhVQRJU6dhbXpCAQ",
+        "semanticType" : "TYPE_SEARCHED_ADDRESS",
+        "locationConfidence" : 2.660602
+      }, {
+        "latitudeE7" : 491490620,
+        "longitudeE7" : -1227800580,
+        "placeId" : "ChIJxXz5AqTQhVQRoegY1yO_Jgc",
+        "semanticType" : "TYPE_SEARCHED_ADDRESS",
+        "locationConfidence" : 1.2730294
+      }, {
+        "latitudeE7" : 491492123,
+        "longitudeE7" : -1227800055,
+        "placeId" : "ChIJ2ZxOA6TQhVQRbSHX9_rtKRI",
+        "semanticType" : "TYPE_SEARCHED_ADDRESS",
+        "locationConfidence" : 0.3337055
+      }, {
+        "latitudeE7" : 491495900,
+        "longitudeE7" : -1227802470,
+        "placeId" : "ChIJ2flAGaTQhVQRyFQTsRBjJzw",
+        "locationConfidence" : 0.052194465
+      } ],
+      "editConfirmationStatus" : "NOT_CONFIRMED"
+    }
+  }, {
+    "activitySegment" : {
+      "startLocation" : {
+        "latitudeE7" : 491498120,
+        "longitudeE7" : -1227806999,
+        "sourceInfo" : {
+          "deviceTag" : -279795187
+        }
+      },
+      "endLocation" : {
+        "latitudeE7" : 491471869,
+        "longitudeE7" : -1227886461,
+        "sourceInfo" : {
+          "deviceTag" : -279795187
+        }
+      },
+      "duration" : {
+        "startTimestampMs" : "1604878385875",
+        "endTimestampMs" : "1604879021957"
+      },
+      "distance" : 655,
+      "activityType" : "WALKING",
+      "confidence" : "HIGH",
+      "activities" : [ {
+        "activityType" : "WALKING",
+        "probability" : 85.53211092948914
+      }, {
+        "activityType" : "IN_PASSENGER_VEHICLE",
+        "probability" : 6.589711457490921
+      }, {
+        "activityType" : "CYCLING",
+        "probability" : 5.996855720877647
+      }, {
+        "activityType" : "RUNNING",
+        "probability" : 1.0401166044175625
+      }, {
+        "activityType" : "STILL",
+        "probability" : 0.34260936081409454
+      }, {
+        "activityType" : "IN_BUS",
+        "probability" : 0.18420839915052056
+      }, {
+        "activityType" : "MOTORCYCLING",
+        "probability" : 0.13961652293801308
+      }, {
+        "activityType" : "IN_FERRY",
+        "probability" : 0.08293871651403606
+      }, {
+        "activityType" : "IN_TRAM",
+        "probability" : 0.035769527312368155
+      }, {
+        "activityType" : "IN_TRAIN",
+        "probability" : 0.02673985145520419
+      }, {
+        "activityType" : "SKIING",
+        "probability" : 0.01677208492765203
+      }, {
+        "activityType" : "SAILING",
+        "probability" : 0.00762502386351116
+      }, {
+        "activityType" : "IN_SUBWAY",
+        "probability" : 0.002948268229374662
+      }, {
+        "activityType" : "FLYING",
+        "probability" : 0.0019553384845494293
+      }, {
+        "activityType" : "IN_VEHICLE",
+        "probability" : 2.409855426321883E-5
+      } ],
+      "waypointPath" : {
+        "waypoints" : [ {
+          "latE7" : 491495819,
+          "lngE7" : -1227807006
+        }, {
+          "latE7" : 491482505,
+          "lngE7" : -1227876815
+        }, {
+          "latE7" : 491473541,
+          "lngE7" : -1227900848
+        } ]
+      }
+    }
+  }, {
+    "placeVisit" : {
+      "location" : {
+        "latitudeE7" : 491480790,
+        "longitudeE7" : -1227831530,
+        "placeId" : "ChIJr8bTYqDQhVQRRzSgN3OQiV8",
+        "address" : "15802\n15802 80 Ave\nSurrey, BC V4N 0T3\nCanada",
+        "name" : "Fleetwood Park",
+        "sourceInfo" : {
+          "deviceTag" : -279795187
+        },
+        "locationConfidence" : 41.788666
+      },
+      "duration" : {
+        "startTimestampMs" : "1604879021957",
+        "endTimestampMs" : "1604884109430"
+      },
+      "placeConfidence" : "MEDIUM_CONFIDENCE",
+      "centerLatE7" : 491463488,
+      "centerLngE7" : -1227887351,
+      "visitConfidence" : 89,
+      "otherCandidateLocations" : [ {
+        "latitudeE7" : 491476085,
+        "longitudeE7" : -1227887984,
+        "placeId" : "ChIJ89-rzwnahVQRA0YGI4xH8Aw",
+        "locationConfidence" : 39.809933
+      }, {
+        "latitudeE7" : 491467094,
+        "longitudeE7" : -1227883606,
+        "placeId" : "ChIJPdk-2QnahVQRgx6ei_NHOmA",
+        "locationConfidence" : 16.34593
+      }, {
+        "latitudeE7" : 491481900,
+        "longitudeE7" : -1227893550,
+        "placeId" : "ChIJHdOn1QnahVQRH-TnhHMOCEY",
+        "locationConfidence" : 0.78591025
+      }, {
+        "latitudeE7" : 491470145,
+        "longitudeE7" : -1227905676,
+        "placeId" : "ChIJxcxBuQnahVQR1kOXGAhOcWg",
+        "locationConfidence" : 0.32041588
+      } ],
+      "editConfirmationStatus" : "NOT_CONFIRMED",
+      "simplifiedRawPath" : {
+        "points" : [ {
+          "latE7" : 491471869,
+          "lngE7" : -1227886461,
+          "timestampMs" : "1604879021957",
+          "accuracyMeters" : 60
+        }, {
+          "latE7" : 491460241,
+          "lngE7" : -1227885530,
+          "timestampMs" : "1604879471275",
+          "accuracyMeters" : 82
+        }, {
+          "latE7" : 491471188,
+          "lngE7" : -1227887282,
+          "timestampMs" : "1604880396843",
+          "accuracyMeters" : 58
+        }, {
+          "latE7" : 491471046,
+          "lngE7" : -1227895670,
+          "timestampMs" : "1604880547303",
+          "accuracyMeters" : 58
+        }, {
+          "latE7" : 491472890,
+          "lngE7" : -1227886859,
+          "timestampMs" : "1604882560213",
+          "accuracyMeters" : 36
+        }, {
+          "latE7" : 491472493,
+          "lngE7" : -1227892086,
+          "timestampMs" : "1604882723398",
+          "accuracyMeters" : 41
+        }, {
+          "latE7" : 491455442,
+          "lngE7" : -1227880401,
+          "timestampMs" : "1604883131449",
+          "accuracyMeters" : 110
+        }, {
+          "latE7" : 491457545,
+          "lngE7" : -1227888297,
+          "timestampMs" : "1604884024405",
+          "accuracyMeters" : 40
+        } ]
+      }
+    }
+  }, {
+    "activitySegment" : {
+      "startLocation" : {
+        "latitudeE7" : 491457545,
+        "longitudeE7" : -1227888297,
+        "sourceInfo" : {
+          "deviceTag" : -279795187
+        }
+      },
+      "endLocation" : {
+        "latitudeE7" : 491492731,
+        "longitudeE7" : -1227802090,
+        "sourceInfo" : {
+          "deviceTag" : -279795187
+        }
+      },
+      "duration" : {
+        "startTimestampMs" : "1604884109430",
+        "endTimestampMs" : "1604884787570"
+      },
+      "distance" : 743,
+      "activityType" : "WALKING",
+      "confidence" : "MEDIUM",
+      "activities" : [ {
+        "activityType" : "WALKING",
+        "probability" : 76.23285055160522
+      }, {
+        "activityType" : "IN_PASSENGER_VEHICLE",
+        "probability" : 13.589566946029663
+      }, {
+        "activityType" : "CYCLING",
+        "probability" : 7.689613103866577
+      }, {
+        "activityType" : "RUNNING",
+        "probability" : 1.2069767341017723
+      }, {
+        "activityType" : "MOTORCYCLING",
+        "probability" : 0.4175706300884485
+      }, {
+        "activityType" : "STILL",
+        "probability" : 0.35517257638275623
+      }, {
+        "activityType" : "IN_BUS",
+        "probability" : 0.21532673854380846
+      }, {
+        "activityType" : "IN_FERRY",
+        "probability" : 0.1461587380617857
+      }, {
+        "activityType" : "SKIING",
+        "probability" : 0.061925360932946205
+      }, {
+        "activityType" : "IN_TRAIN",
+        "probability" : 0.02866470895241946
+      }, {
+        "activityType" : "IN_TRAM",
+        "probability" : 0.027200966724194586
+      }, {
+        "activityType" : "SAILING",
+        "probability" : 0.019904188229702413
+      }, {
+        "activityType" : "FLYING",
+        "probability" : 0.0054988333431538194
+      }, {
+        "activityType" : "IN_SUBWAY",
+        "probability" : 0.003508291774778627
+      }, {
+        "activityType" : "IN_VEHICLE",
+        "probability" : 6.165899435472966E-5
+      } ],
+      "waypointPath" : {
+        "waypoints" : [ {
+          "latE7" : 491460380,
+          "lngE7" : -1227888107
+        }, {
+          "latE7" : 491468963,
+          "lngE7" : -1227842025
+        }, {
+          "latE7" : 491492729,
+          "lngE7" : -1227803115
+        } ]
+      }
+    }
+  }, {
+    "placeVisit" : {
+      "location" : {
+        "latitudeE7" : 491493149,
+        "longitudeE7" : -1227798615,
+        "placeId" : "ChIJ3x5UHKTQhVQRevn4yUfttvc",
+        "address" : "8036 159a St, Surrey, BC V4N 0K1, Canada",
+        "semanticType" : "TYPE_HOME",
+        "sourceInfo" : {
+          "deviceTag" : -279795187
+        },
+        "locationConfidence" : 94.22911
+      },
+      "duration" : {
+        "startTimestampMs" : "1604884787570",
+        "endTimestampMs" : "1604890135242"
+      },
+      "placeConfidence" : "HIGH_CONFIDENCE",
+      "centerLatE7" : 491493677,
+      "centerLngE7" : -1227797421,
+      "visitConfidence" : 93,
+      "otherCandidateLocations" : [ {
+        "latitudeE7" : 491493832,
+        "longitudeE7" : -1227795843,
+        "placeId" : "ChIJyy2hGqTQhVQRJU6dhbXpCAQ",
+        "semanticType" : "TYPE_SEARCHED_ADDRESS",
+        "locationConfidence" : 2.3652062
+      }, {
+        "latitudeE7" : 491490620,
+        "longitudeE7" : -1227800580,
+        "placeId" : "ChIJxXz5AqTQhVQRoegY1yO_Jgc",
+        "semanticType" : "TYPE_SEARCHED_ADDRESS",
+        "locationConfidence" : 1.9061435
+      }, {
+        "latitudeE7" : 491480790,
+        "longitudeE7" : -1227831530,
+        "placeId" : "ChIJr8bTYqDQhVQRRzSgN3OQiV8",
+        "locationConfidence" : 0.6561202
+      }, {
+        "latitudeE7" : 491492123,
+        "longitudeE7" : -1227800055,
+        "placeId" : "ChIJ2ZxOA6TQhVQRbSHX9_rtKRI",
+        "semanticType" : "TYPE_SEARCHED_ADDRESS",
+        "locationConfidence" : 0.3278837
+      } ],
+      "editConfirmationStatus" : "NOT_CONFIRMED"
+    }
+  }, {
+    "activitySegment" : {
+      "startLocation" : {
+        "latitudeE7" : 491495930,
+        "longitudeE7" : -1227790727,
+        "sourceInfo" : {
+          "deviceTag" : -279795187
+        }
+      },
+      "endLocation" : {
+        "latitudeE7" : 491918880,
+        "longitudeE7" : -1227648760,
+        "sourceInfo" : {
+          "deviceTag" : -279795187
+        }
+      },
+      "duration" : {
+        "startTimestampMs" : "1604890135242",
+        "endTimestampMs" : "1604893310604"
+      },
+      "distance" : 4814,
+      "activityType" : "IN_PASSENGER_VEHICLE",
+      "confidence" : "MEDIUM",
+      "activities" : [ {
+        "activityType" : "IN_PASSENGER_VEHICLE",
+        "probability" : 74.52554702758789
+      }, {
+        "activityType" : "CYCLING",
+        "probability" : 11.81616336107254
+      }, {
+        "activityType" : "WALKING",
+        "probability" : 7.325518876314163
+      }, {
+        "activityType" : "MOTORCYCLING",
+        "probability" : 3.7086326628923416
+      }, {
+        "activityType" : "STILL",
+        "probability" : 1.2408453039824963
+      }, {
+        "activityType" : "IN_BUS",
+        "probability" : 0.467990105971694
+      }, {
+        "activityType" : "IN_FERRY",
+        "probability" : 0.38950503803789616
+      }, {
+        "activityType" : "RUNNING",
+        "probability" : 0.2723479177802801
+      }, {
+        "activityType" : "SKIING",
+        "probability" : 0.1323291566222906
+      }, {
+        "activityType" : "IN_TRAIN",
+        "probability" : 0.04108414868824184
+      }, {
+        "activityType" : "SAILING",
+        "probability" : 0.03717532381415367
+      }, {
+        "activityType" : "FLYING",
+        "probability" : 0.02204921329393983
+      }, {
+        "activityType" : "IN_TRAM",
+        "probability" : 0.016121126827783883
+      }, {
+        "activityType" : "IN_SUBWAY",
+        "probability" : 0.004594825804815628
+      }, {
+        "activityType" : "IN_VEHICLE",
+        "probability" : 9.009525001602015E-5
+      } ],
+      "waypointPath" : {
+        "waypoints" : [ {
+          "latE7" : 491495857,
+          "lngE7" : -1227790756
+        }, {
+          "latE7" : 491519165,
+          "lngE7" : -1227787780
+        }, {
+          "latE7" : 491919670,
+          "lngE7" : -1227648773
+        } ]
+      },
+      "parkingEvent" : {
+        "timestampMs" : "1604893310838",
+        "location" : {
+          "latitudeE7" : 491918880,
+          "longitudeE7" : -1227648760,
+          "accuracyMetres" : 76
+        }
+      }
+    }
+  }, {
+    "placeVisit" : {
+      "location" : {
+        "latitudeE7" : 491917702,
+        "longitudeE7" : -1227645347,
+        "placeId" : "ChIJD9CU7N_WhVQRymrNYv29LMg",
+        "address" : "16499 104 Ave\nSurrey, BC V4N 1Z6\nCanada",
+        "name" : "16499 104 Ave",
+        "sourceInfo" : {
+          "deviceTag" : -279795187
+        },
+        "locationConfidence" : 40.690388
+      },
+      "duration" : {
+        "startTimestampMs" : "1604893310604",
+        "endTimestampMs" : "1604895642564"
+      },
+      "placeConfidence" : "LOW_CONFIDENCE",
+      "centerLatE7" : 491918850,
+      "centerLngE7" : -1227648900,
+      "visitConfidence" : 82,
+      "otherCandidateLocations" : [ {
+        "latitudeE7" : 491921591,
+        "longitudeE7" : -1227647135,
+        "placeId" : "ChIJi-fl6N_WhVQRhQk0iEVWx4s",
+        "locationConfidence" : 18.502733
+      }, {
+        "latitudeE7" : 491914620,
+        "longitudeE7" : -1227669730,
+        "placeId" : "ChIJWQXXDyDXhVQRF7WkboFB3IE",
+        "locationConfidence" : 13.116752
+      }, {
+        "latitudeE7" : 491915240,
+        "longitudeE7" : -1227608340,
+        "placeId" : "ChIJk0k_Vd7WhVQR3zRmqNSFHK0",
+        "locationConfidence" : 2.2124677
+      }, {
+        "latitudeE7" : 491917390,
+        "longitudeE7" : -1227645749,
+        "placeId" : "ChIJTbTC7N_WhVQR7PoZ7g1W0ik",
+        "locationConfidence" : 1.7951694
+      } ],
+      "editConfirmationStatus" : "NOT_CONFIRMED"
+    }
+  }, {
+    "activitySegment" : {
+      "startLocation" : {
+        "latitudeE7" : 491918924,
+        "longitudeE7" : -1227649143,
+        "sourceInfo" : {
+          "deviceTag" : -279795187
+        }
+      },
+      "endLocation" : {
+        "latitudeE7" : 491493157,
+        "longitudeE7" : -1227801799,
+        "sourceInfo" : {
+          "deviceTag" : -279795187
+        }
+      },
+      "duration" : {
+        "startTimestampMs" : "1604895642564",
+        "endTimestampMs" : "1604898462444"
+      },
+      "distance" : 4862,
+      "activityType" : "IN_PASSENGER_VEHICLE",
+      "confidence" : "MEDIUM",
+      "activities" : [ {
+        "activityType" : "IN_PASSENGER_VEHICLE",
+        "probability" : 72.54915237426758
+      }, {
+        "activityType" : "CYCLING",
+        "probability" : 16.81378036737442
+      }, {
+        "activityType" : "WALKING",
+        "probability" : 5.24650439620018
+      }, {
+        "activityType" : "MOTORCYCLING",
+        "probability" : 3.6201700568199158
+      }, {
+        "activityType" : "STILL",
+        "probability" : 0.5019374191761017
+      }, {
+        "activityType" : "IN_FERRY",
+        "probability" : 0.42629968374967575
+      }, {
+        "activityType" : "IN_BUS",
+        "probability" : 0.4169660620391369
+      }, {
+        "activityType" : "RUNNING",
+        "probability" : 0.23902333341538906
+      }, {
+        "activityType" : "SKIING",
+        "probability" : 0.0795151514466852
+      }, {
+        "activityType" : "IN_TRAIN",
+        "probability" : 0.04743669705931097
+      }, {
+        "activityType" : "SAILING",
+        "probability" : 0.030492132646031678
+      }, {
+        "activityType" : "IN_TRAM",
+        "probability" : 0.014343664224725217
+      }, {
+        "activityType" : "FLYING",
+        "probability" : 0.010882132482947782
+      }, {
+        "activityType" : "IN_SUBWAY",
+        "probability" : 0.0033417560189263895
+      }, {
+        "activityType" : "IN_VEHICLE",
+        "probability" : 1.5727326854175772E-4
+      } ],
+      "waypointPath" : {
+        "waypoints" : [ {
+          "latE7" : 491919670,
+          "lngE7" : -1227649078
+        }, {
+          "latE7" : 491518096,
+          "lngE7" : -1227789382
+        }, {
+          "latE7" : 491493148,
+          "lngE7" : -1227803192
+        } ]
+      },
+      "parkingEvent" : {
+        "timestampMs" : "1604898497688",
+        "location" : {
+          "latitudeE7" : 491494118,
+          "longitudeE7" : -1227802013,
+          "accuracyMetres" : 88
+        }
+      }
+    }
+  }, {
+    "placeVisit" : {
+      "location" : {
+        "latitudeE7" : 491493149,
+        "longitudeE7" : -1227798615,
+        "placeId" : "ChIJ3x5UHKTQhVQRevn4yUfttvc",
+        "address" : "8036 159a St, Surrey, BC V4N 0K1, Canada",
+        "semanticType" : "TYPE_HOME",
+        "sourceInfo" : {
+          "deviceTag" : -279795187
+        },
+        "locationConfidence" : 95.52577
+      },
+      "duration" : {
+        "startTimestampMs" : "1604898462444",
+        "endTimestampMs" : "1605485823816"
+      },
+      "placeConfidence" : "HIGH_CONFIDENCE",
+      "centerLatE7" : 491493282,
+      "centerLngE7" : -1227799732,
+      "visitConfidence" : 93,
+      "otherCandidateLocations" : [ {
+        "latitudeE7" : 491490620,
+        "longitudeE7" : -1227800580,
+        "placeId" : "ChIJxXz5AqTQhVQRoegY1yO_Jgc",
+        "semanticType" : "TYPE_SEARCHED_ADDRESS",
+        "locationConfidence" : 2.051428
+      }, {
+        "latitudeE7" : 491493832,
+        "longitudeE7" : -1227795843,
+        "placeId" : "ChIJyy2hGqTQhVQRJU6dhbXpCAQ",
+        "semanticType" : "TYPE_SEARCHED_ADDRESS",
+        "locationConfidence" : 1.6268945
+      }, {
+        "latitudeE7" : 491492123,
+        "longitudeE7" : -1227800055,
+        "placeId" : "ChIJ2ZxOA6TQhVQRbSHX9_rtKRI",
+        "semanticType" : "TYPE_SEARCHED_ADDRESS",
+        "locationConfidence" : 0.41317913
+      }, {
+        "latitudeE7" : 491480790,
+        "longitudeE7" : -1227831530,
+        "placeId" : "ChIJr8bTYqDQhVQRRzSgN3OQiV8",
+        "locationConfidence" : 0.20268701
+      } ],
+      "editConfirmationStatus" : "NOT_CONFIRMED"
+    }
+  }, {
+    "activitySegment" : {
+      "startLocation" : {
+        "latitudeE7" : 491493638,
+        "longitudeE7" : -1227802707,
+        "sourceInfo" : {
+          "deviceTag" : -279795187
+        }
+      },
+      "endLocation" : {
+        "latitudeE7" : 491492889,
+        "longitudeE7" : -1227801364,
+        "sourceInfo" : {
+          "deviceTag" : -279795187
+        }
+      },
+      "duration" : {
+        "startTimestampMs" : "1605485823816",
+        "endTimestampMs" : "1605487259216"
+      },
+      "distance" : 767,
+      "activityType" : "WALKING",
+      "confidence" : "HIGH",
+      "activities" : [ {
+        "activityType" : "WALKING",
+        "probability" : 88.02071213722229
+      }, {
+        "activityType" : "IN_PASSENGER_VEHICLE",
+        "probability" : 6.62023052573204
+      }, {
+        "activityType" : "STILL",
+        "probability" : 2.5389686226844788
+      }, {
+        "activityType" : "CYCLING",
+        "probability" : 1.733502373099327
+      }, {
+        "activityType" : "RUNNING",
+        "probability" : 0.6864863447844982
+      }, {
+        "activityType" : "MOTORCYCLING",
+        "probability" : 0.16227635787799954
+      }, {
+        "activityType" : "IN_FERRY",
+        "probability" : 0.10067409602925181
+      }, {
+        "activityType" : "SKIING",
+        "probability" : 0.08375959587283432
+      }, {
+        "activityType" : "SAILING",
+        "probability" : 0.024060778378043324
+      }, {
+        "activityType" : "IN_BUS",
+        "probability" : 0.018611644918564707
+      }, {
+        "activityType" : "IN_TRAIN",
+        "probability" : 0.005088137913844548
+      }, {
+        "activityType" : "FLYING",
+        "probability" : 0.004119679215364158
+      }, {
+        "activityType" : "IN_TRAM",
+        "probability" : 0.0011974130757153034
+      }, {
+        "activityType" : "IN_SUBWAY",
+        "probability" : 2.8353952075121924E-4
+      }, {
+        "activityType" : "IN_VEHICLE",
+        "probability" : 2.6953557608067058E-5
+      } ],
+      "waypointPath" : {
+        "waypoints" : [ {
+          "latE7" : 491493644,
+          "lngE7" : -1227803192
+        }, {
+          "latE7" : 491487197,
+          "lngE7" : -1227844390
+        }, {
+          "latE7" : 491491889,
+          "lngE7" : -1227843170
+        }, {
+          "latE7" : 491492881,
+          "lngE7" : -1227803115
+        } ]
+      },
+      "simplifiedRawPath" : {
+        "points" : [ {
+          "latE7" : 491492424,
+          "lngE7" : -1227843170,
+          "timestampMs" : "1605486494377",
+          "accuracyMeters" : 42
+        } ]
+      }
+    }
+  }, {
+    "placeVisit" : {
+      "location" : {
+        "latitudeE7" : 491493149,
+        "longitudeE7" : -1227798615,
+        "placeId" : "ChIJ3x5UHKTQhVQRevn4yUfttvc",
+        "address" : "8036 159a St, Surrey, BC V4N 0K1, Canada",
+        "semanticType" : "TYPE_HOME",
+        "sourceInfo" : {
+          "deviceTag" : -279795187
+        },
+        "locationConfidence" : 94.5808
+      },
+      "duration" : {
+        "startTimestampMs" : "1605487259216",
+        "endTimestampMs" : "1605495190173"
+      },
+      "placeConfidence" : "HIGH_CONFIDENCE",
+      "centerLatE7" : 491493584,
+      "centerLngE7" : -1227797372,
+      "visitConfidence" : 94,
+      "otherCandidateLocations" : [ {
+        "latitudeE7" : 491493832,
+        "longitudeE7" : -1227795843,
+        "placeId" : "ChIJyy2hGqTQhVQRJU6dhbXpCAQ",
+        "semanticType" : "TYPE_SEARCHED_ADDRESS",
+        "locationConfidence" : 2.1890364
+      }, {
+        "latitudeE7" : 491490620,
+        "longitudeE7" : -1227800580,
+        "placeId" : "ChIJxXz5AqTQhVQRoegY1yO_Jgc",
+        "semanticType" : "TYPE_SEARCHED_ADDRESS",
+        "locationConfidence" : 2.0424957
+      }, {
+        "latitudeE7" : 491492123,
+        "longitudeE7" : -1227800055,
+        "placeId" : "ChIJ2ZxOA6TQhVQRbSHX9_rtKRI",
+        "semanticType" : "TYPE_SEARCHED_ADDRESS",
+        "locationConfidence" : 0.32478455
+      }, {
+        "latitudeE7" : 491480790,
+        "longitudeE7" : -1227831530,
+        "placeId" : "ChIJr8bTYqDQhVQRRzSgN3OQiV8",
+        "locationConfidence" : 0.17386605
+      } ],
+      "editConfirmationStatus" : "NOT_CONFIRMED"
+    }
+  }, {
+    "activitySegment" : {
+      "startLocation" : {
+        "latitudeE7" : 491494077,
+        "longitudeE7" : -1227801970,
+        "sourceInfo" : {
+          "deviceTag" : -279795187
+        }
+      },
+      "endLocation" : {
+        "latitudeE7" : 491921815,
+        "longitudeE7" : -1227645121,
+        "sourceInfo" : {
+          "deviceTag" : -279795187
+        }
+      },
+      "duration" : {
+        "startTimestampMs" : "1605495190173",
+        "endTimestampMs" : "1605495759507"
+      },
+      "distance" : 4891,
+      "activityType" : "IN_PASSENGER_VEHICLE",
+      "confidence" : "HIGH",
+      "activities" : [ {
+        "activityType" : "IN_PASSENGER_VEHICLE",
+        "probability" : 89.70595002174377
+      }, {
+        "activityType" : "MOTORCYCLING",
+        "probability" : 4.497341811656952
+      }, {
+        "activityType" : "CYCLING",
+        "probability" : 3.061750903725624
+      }, {
+        "activityType" : "WALKING",
+        "probability" : 2.189280092716217
+      }, {
+        "activityType" : "RUNNING",
+        "probability" : 0.21282222587615252
+      }, {
+        "activityType" : "STILL",
+        "probability" : 0.12694864999502897
+      }, {
+        "activityType" : "IN_FERRY",
+        "probability" : 0.07421725313179195
+      }, {
+        "activityType" : "IN_BUS",
+        "probability" : 0.04891007556580007
+      }, {
+        "activityType" : "IN_TRAIN",
+        "probability" : 0.03245920524932444
+      }, {
+        "activityType" : "FLYING",
+        "probability" : 0.029441676451824605
+      }, {
+        "activityType" : "IN_SUBWAY",
+        "probability" : 0.010330073564546183
+      }, {
+        "activityType" : "SAILING",
+        "probability" : 0.005790182694909163
+      }, {
+        "activityType" : "IN_TRAM",
+        "probability" : 0.002450476495141629
+      }, {
+        "activityType" : "SKIING",
+        "probability" : 0.0022754680685466155
+      }, {
+        "activityType" : "IN_VEHICLE",
+        "probability" : 2.9260530709507293E-5
+      } ],
+      "waypointPath" : {
+        "waypoints" : [ {
+          "latE7" : 491494064,
+          "lngE7" : -1227803192
+        }, {
+          "latE7" : 491926574,
+          "lngE7" : -1227774276
+        }, {
+          "latE7" : 491919975,
+          "lngE7" : -1227644500
+        } ]
+      },
+      "parkingEvent" : {
+        "timestampMs" : "1605495759507",
+        "location" : {
+          "latitudeE7" : 491921815,
+          "longitudeE7" : -1227645121,
+          "accuracyMetres" : 160,
+          "sourceInfo" : {
+            "deviceTag" : -279795187
+          }
+        }
+      }
+    }
+  }, {
+    "placeVisit" : {
+      "location" : {
+        "latitudeE7" : 491917702,
+        "longitudeE7" : -1227645347,
+        "placeId" : "ChIJD9CU7N_WhVQRymrNYv29LMg",
+        "address" : "16499 104 Ave\nSurrey, BC V4N 1Z6\nCanada",
+        "name" : "16499 104 Ave",
+        "sourceInfo" : {
+          "deviceTag" : -279795187
+        },
+        "locationConfidence" : 38.785873
+      },
+      "duration" : {
+        "startTimestampMs" : "1605495759507",
+        "endTimestampMs" : "1605501443308"
+      },
+      "placeConfidence" : "MEDIUM_CONFIDENCE",
+      "centerLatE7" : 491919200,
+      "centerLngE7" : -1227647810,
+      "visitConfidence" : 85,
+      "otherCandidateLocations" : [ {
+        "latitudeE7" : 491921870,
+        "longitudeE7" : -1227649457,
+        "placeId" : "ChIJt_5M79_WhVQRvTlwD6CpQZU",
+        "locationConfidence" : 18.284515
+      }, {
+        "latitudeE7" : 491914620,
+        "longitudeE7" : -1227669730,
+        "placeId" : "ChIJWQXXDyDXhVQRF7WkboFB3IE",
+        "locationConfidence" : 7.320758
+      }, {
+        "latitudeE7" : 491921591,
+        "longitudeE7" : -1227647135,
+        "placeId" : "ChIJi-fl6N_WhVQRhQk0iEVWx4s",
+        "locationConfidence" : 2.5626762
+      }, {
+        "latitudeE7" : 491917390,
+        "longitudeE7" : -1227645749,
+        "placeId" : "ChIJTbTC7N_WhVQR7PoZ7g1W0ik",
+        "locationConfidence" : 1.9172927
+      }, {
+        "latitudeE7" : 491922161,
+        "longitudeE7" : -1227644717,
+        "placeId" : "ChIJ0-846N_WhVQRybhAvyHjQRk",
+        "locationConfidence" : 1.7841938
+      }, {
+        "latitudeE7" : 491915240,
+        "longitudeE7" : -1227608340,
+        "placeId" : "ChIJk0k_Vd7WhVQR3zRmqNSFHK0",
+        "locationConfidence" : 1.4052707
+      } ],
+      "editConfirmationStatus" : "NOT_CONFIRMED"
+    }
+  }, {
+    "activitySegment" : {
+      "startLocation" : {
+        "latitudeE7" : 491918721,
+        "longitudeE7" : -1227647888,
+        "sourceInfo" : {
+          "deviceTag" : -279795187
+        }
+      },
+      "endLocation" : {
+        "latitudeE7" : 491494139,
+        "longitudeE7" : -1227801895,
+        "sourceInfo" : {
+          "deviceTag" : -279795187
+        }
+      },
+      "duration" : {
+        "startTimestampMs" : "1605501443308",
+        "endTimestampMs" : "1605502460147"
+      },
+      "distance" : 4852,
+      "activityType" : "IN_PASSENGER_VEHICLE",
+      "confidence" : "HIGH",
+      "activities" : [ {
+        "activityType" : "IN_PASSENGER_VEHICLE",
+        "probability" : 93.64968538284302
+      }, {
+        "activityType" : "MOTORCYCLING",
+        "probability" : 2.657398208975792
+      }, {
+        "activityType" : "WALKING",
+        "probability" : 1.6285579651594162
+      }, {
+        "activityType" : "CYCLING",
+        "probability" : 1.085510291159153
+      }, {
+        "activityType" : "STILL",
+        "probability" : 0.5128467921167612
+      }, {
+        "activityType" : "RUNNING",
+        "probability" : 0.24847928434610367
+      }, {
+        "activityType" : "IN_FERRY",
+        "probability" : 0.1453213975764811
+      }, {
+        "activityType" : "FLYING",
+        "probability" : 0.02662575279828161
+      }, {
+        "activityType" : "IN_BUS",
+        "probability" : 0.018327153520658612
+      }, {
+        "activityType" : "SAILING",
+        "probability" : 0.010028158430941403
+      }, {
+        "activityType" : "IN_TRAIN",
+        "probability" : 0.009941580356098711
+      }, {
+        "activityType" : "IN_SUBWAY",
+        "probability" : 0.004464200537768193
+      }, {
+        "activityType" : "SKIING",
+        "probability" : 0.0016563290046178736
+      }, {
+        "activityType" : "IN_TRAM",
+        "probability" : 0.001076701119018253
+      }, {
+        "activityType" : "IN_VEHICLE",
+        "probability" : 8.01067926659016E-5
+      } ],
+      "waypointPath" : {
+        "waypoints" : [ {
+          "latE7" : 491919670,
+          "lngE7" : -1227647857
+        }, {
+          "latE7" : 491518096,
+          "lngE7" : -1227789382
+        }, {
+          "latE7" : 491494140,
+          "lngE7" : -1227803192
+        } ]
+      },
+      "parkingEvent" : {
+        "timestampMs" : "1605502444060",
+        "location" : {
+          "latitudeE7" : 491493928,
+          "longitudeE7" : -1227801963,
+          "accuracyMetres" : 77
+        }
+      }
+    }
+  }, {
+    "placeVisit" : {
+      "location" : {
+        "latitudeE7" : 491493149,
+        "longitudeE7" : -1227798615,
+        "placeId" : "ChIJ3x5UHKTQhVQRevn4yUfttvc",
+        "address" : "8036 159a St, Surrey, BC V4N 0K1, Canada",
+        "semanticType" : "TYPE_HOME",
+        "sourceInfo" : {
+          "deviceTag" : -279795187
+        },
+        "locationConfidence" : 93.06032
+      },
+      "duration" : {
+        "startTimestampMs" : "1605502460147",
+        "endTimestampMs" : "1605745288778"
+      },
+      "placeConfidence" : "HIGH_CONFIDENCE",
+      "centerLatE7" : 491493642,
+      "centerLngE7" : -1227797361,
+      "visitConfidence" : 93,
+      "otherCandidateLocations" : [ {
+        "latitudeE7" : 491493832,
+        "longitudeE7" : -1227795843,
+        "placeId" : "ChIJyy2hGqTQhVQRJU6dhbXpCAQ",
+        "semanticType" : "TYPE_SEARCHED_ADDRESS",
+        "locationConfidence" : 2.3830729
+      }, {
+        "latitudeE7" : 491490620,
+        "longitudeE7" : -1227800580,
+        "placeId" : "ChIJxXz5AqTQhVQRoegY1yO_Jgc",
+        "semanticType" : "TYPE_SEARCHED_ADDRESS",
+        "locationConfidence" : 1.887252
+      }, {
+        "latitudeE7" : 491492123,
+        "longitudeE7" : -1227800055,
+        "placeId" : "ChIJ2ZxOA6TQhVQRbSHX9_rtKRI",
+        "semanticType" : "TYPE_SEARCHED_ADDRESS",
+        "locationConfidence" : 0.42204416
+      }, {
+        "latitudeE7" : 491480790,
+        "longitudeE7" : -1227831530,
+        "placeId" : "ChIJr8bTYqDQhVQRRzSgN3OQiV8",
+        "locationConfidence" : 0.06650908
+      } ],
+      "editConfirmationStatus" : "NOT_CONFIRMED"
+    }
+  }, {
+    "activitySegment" : {
+      "startLocation" : {
+        "latitudeE7" : 491493142,
+        "longitudeE7" : -1227804030,
+        "sourceInfo" : {
+          "deviceTag" : -279795187
+        }
+      },
+      "endLocation" : {
+        "latitudeE7" : 491493757,
+        "longitudeE7" : -1227797397,
+        "sourceInfo" : {
+          "deviceTag" : -279795187
+        }
+      },
+      "duration" : {
+        "startTimestampMs" : "1605745288778",
+        "endTimestampMs" : "1605746712752"
+      },
+      "distance" : 577,
+      "activityType" : "WALKING",
+      "confidence" : "LOW",
+      "activities" : [ {
+        "activityType" : "WALKING",
+        "probability" : 54.39825654029846
+      }, {
+        "activityType" : "STILL",
+        "probability" : 33.052730560302734
+      }, {
+        "activityType" : "IN_PASSENGER_VEHICLE",
+        "probability" : 7.935468107461929
+      }, {
+        "activityType" : "CYCLING",
+        "probability" : 3.6139294505119324
+      }, {
+        "activityType" : "RUNNING",
+        "probability" : 0.5995131563395262
+      }, {
+        "activityType" : "MOTORCYCLING",
+        "probability" : 0.28492873534560204
+      }, {
+        "activityType" : "IN_FERRY",
+        "probability" : 0.0477705238154158
+      }, {
+        "activityType" : "IN_BUS",
+        "probability" : 0.025691991322673857
+      }, {
+        "activityType" : "SKIING",
+        "probability" : 0.016675789083819836
+      }, {
+        "activityType" : "SAILING",
+        "probability" : 0.013386468344833702
+      }, {
+        "activityType" : "IN_TRAIN",
+        "probability" : 0.007247243775054812
+      }, {
+        "activityType" : "IN_TRAM",
+        "probability" : 0.0018311924577574246
+      }, {
+        "activityType" : "FLYING",
+        "probability" : 0.0017699674572213553
+      }, {
+        "activityType" : "IN_SUBWAY",
+        "probability" : 7.354137778747827E-4
+      }, {
+        "activityType" : "IN_VEHICLE",
+        "probability" : 6.518170607705542E-5
+      } ],
+      "waypointPath" : {
+        "waypoints" : [ {
+          "latE7" : 491493148,
+          "lngE7" : -1227803192
+        }, {
+          "latE7" : 491495819,
+          "lngE7" : -1227810134
+        }, {
+          "latE7" : 491493873,
+          "lngE7" : -1227820205
+        } ]
+      }
+    }
+  }, {
+    "placeVisit" : {
+      "location" : {
+        "latitudeE7" : 491493149,
+        "longitudeE7" : -1227798615,
+        "placeId" : "ChIJ3x5UHKTQhVQRevn4yUfttvc",
+        "address" : "8036 159a St, Surrey, BC V4N 0K1, Canada",
+        "semanticType" : "TYPE_HOME",
+        "sourceInfo" : {
+          "deviceTag" : -279795187
+        },
+        "locationConfidence" : 95.983696
+      },
+      "duration" : {
+        "startTimestampMs" : "1605746712752",
+        "endTimestampMs" : "1605821842937"
+      },
+      "placeConfidence" : "HIGH_CONFIDENCE",
+      "centerLatE7" : 491493610,
+      "centerLngE7" : -1227797593,
+      "visitConfidence" : 95,
+      "otherCandidateLocations" : [ {
+        "latitudeE7" : 491493832,
+        "longitudeE7" : -1227795843,
+        "placeId" : "ChIJyy2hGqTQhVQRJU6dhbXpCAQ",
+        "semanticType" : "TYPE_SEARCHED_ADDRESS",
+        "locationConfidence" : 1.7985065
+      }, {
+        "latitudeE7" : 491490620,
+        "longitudeE7" : -1227800580,
+        "placeId" : "ChIJxXz5AqTQhVQRoegY1yO_Jgc",
+        "semanticType" : "TYPE_SEARCHED_ADDRESS",
+        "locationConfidence" : 1.462658
+      }, {
+        "latitudeE7" : 491492123,
+        "longitudeE7" : -1227800055,
+        "placeId" : "ChIJ2ZxOA6TQhVQRbSHX9_rtKRI",
+        "semanticType" : "TYPE_SEARCHED_ADDRESS",
+        "locationConfidence" : 0.2773186
+      }, {
+        "latitudeE7" : 491480790,
+        "longitudeE7" : -1227831530,
+        "placeId" : "ChIJr8bTYqDQhVQRRzSgN3OQiV8",
+        "locationConfidence" : 0.08259947
+      } ],
+      "editConfirmationStatus" : "NOT_CONFIRMED"
+    }
+  } ]
+}
