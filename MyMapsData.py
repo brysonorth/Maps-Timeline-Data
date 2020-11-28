@@ -23,6 +23,13 @@ activities = {"IN_PASSENGER_VEHICLE":'car',
 "IN_SUBWAY": 'skytrain'}
 
 while True:
+    if year == '2018' and month == 'AUGUST':
+        print('\n')
+        print('Data not available for that month')
+        year = input('Select a year ')
+        month = input('Select a month ')
+        month = month.upper()
+        continue
     try:
         #file path specific to my files and Google takeout. Loads into readable json file
         fileName = 'GoogleMaps API/MapsTakeoutNov2020/Takeout/Location History/Semantic Location History/' + year + '/' + year + '_' + month + '.json'
@@ -68,6 +75,7 @@ while True:
                     if items['activitySegment']['activityType'] == 'IN_PASSENGER_VEHICLE':
                         vehTotal = vehTotal + disKm
                     
+                    #finds total distance travelled by plane
                     if items['activitySegment']['activityType'] == 'FLYING':
                         planeTotal = planeTotal + disKm
                 except KeyError:
@@ -77,13 +85,15 @@ while True:
         print('Month or year unavailable or typed incorrectly')
         print('\n')
         year = input('Select a year ')
-        month = input('Select a year ')
+        month = input('Select a month ')
+        month = month.upper()
         continue
       
 durRes = str(datetime.timedelta(minutes=durTotal)) #converts into easily readable datetime string
 durBigRes = str(datetime.timedelta(minutes=durBig))
-carLitres = fuelData.fuelUsed(vehTotal)
+vehLitres = fuelData.fuelUsed(vehTotal)
 planeLitres = fuelData.planeFuelUsed(planeTotal)
+totalCarb = fuelData.carbonUsed(vehLitres,planeLitres)
 
 #end = datetime.datetime.fromtimestamp(endTime/1000, tz=None) 
 
@@ -94,7 +104,8 @@ print('\n')
 print('Total Time Travelling:',  durRes, 'Hours')
 print('Longest Trip:', durBigRes, 'Hours ---> on', startDateDur, 'via', activities[activityTypeDis].lower())
 print('\n')
-print('Approximate car fuel used:', round(carLitres,1), 'Litres')
+print('Approximate car fuel used:', round(vehLitres,1), 'Litres')
 if planeTotal > 0:
     print('Approximate plane fuel used:', round(planeLitres, 1), 'Litres' )
+print('Approximate carbon used:', round(totalCarb, 1), 'kg of CO2')
 
