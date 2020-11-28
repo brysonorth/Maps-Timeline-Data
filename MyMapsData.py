@@ -1,9 +1,7 @@
 import json
 import datetime
-#import os
-#os.chdir('C:\\Users\\fitcr\\MyPythonScripts\\py4e')
+import fuelData
 
-#currentYear = datetime.datetime.now().year
 year = input('Select a year ')
 #year = '2020'
 month = input('Select a month ')
@@ -14,27 +12,35 @@ disTotal = 0
 durTotal = 0
 disBig = 0
 durBig = 0
+vehTotal = 0
 x = 1
+planeTotal = 0
+activities = {"IN_PASSENGER_VEHICLE":'car',
+"WALKING": 'walking',
+"CYCLING": 'cycling',
+"IN_BUS": 'bus',
+"FLYING": 'flying',
+"IN_SUBWAY": 'skytrain'}
 
 while True:
     try:
-#file path specific to my files and Google takeout. Loads into readable json file
+        #file path specific to my files and Google takeout. Loads into readable json file
         fileName = 'GoogleMaps API/MapsTakeoutNov2020/Takeout/Location History/Semantic Location History/' + year + '/' + year + '_' + month + '.json'
         with open(fileName,'r', encoding='utf8') as file:
             data = file.read()
         obj = json.loads(data)
 
-        #goes throuhg each activity in timeline. either acticitySegment or placeVisit
+        #goes through each activity in timeline. either activitySegment or placeVisit
         for items in obj['timelineObjects']:
-            #for activity segments finds total distance, duration, longest distnce, duration
+            #for activity segments finds total distance, total duration, longest distnce, longest duration
             if 'activitySegment'  in items:
                 try:
-                    distance = items['activitySegment']['distance']
-                    disRes = float(distance/1000)
+                    distance = items['activitySegment']['distance'] #gives dita
+                    disKm = float(distance/1000) #converts metres into kilometres
         
                     startTime = int(items['activitySegment']['duration']['startTimestampMs'])
                     endTime = int(items['activitySegment']['duration']['endTimestampMs'])
-                    durMin = float((((endTime - startTime)/1000)/60))
+                    durMin = float((((endTime - startTime)/1000)/60)) #converts time into minutes
 
                     #eliminates any non flying activities over 8 hours long because they are probably a glitch
                     if items['activitySegment']['activityType'] != 'FLYING' and durMin > 480:
@@ -43,18 +49,27 @@ while True:
                     #eliminates any walk segments over 1 hour because I was golfing or hiking, not travelling
                     if items['activitySegment']['activityType'] == 'WALKING' and durMin > 60:
                         continue
-                    else: #adds duration and distance to total count
-                        durTotal = durTotal + durMin
-                        disTotal = disTotal + disRes
-                        disTotal = round(disTotal, 1)
+                    #adds duration and distance to total count
+                    durTotal = durTotal + durMin
+                    disTotal = disTotal + disKm
+                    disTotal = round(disTotal, 1)
                     
                     if durMin > durBig: #finds duration and date of longest trip
                         durBig = durMin
                         startDateDur = datetime.datetime.fromtimestamp(startTime/1000, tz=None)
+                        activityTypeDur = items['activitySegment']['activityType']
                     
-                    if disRes > disBig: #finds distance and date of furthest trip
-                        disBig = disRes
+                    if disKm > disBig: #finds distance and date of furthest trip
+                        disBig = disKm
                         startDateDis = datetime.datetime.fromtimestamp(startTime/1000, tz=None)
+                        activityTypeDis = items['activitySegment']['activityType']
+                    
+                    #finds distance driven in passenger vehicles
+                    if items['activitySegment']['activityType'] == 'IN_PASSENGER_VEHICLE':
+                        vehTotal = vehTotal + disKm
+                    
+                    if items['activitySegment']['activityType'] == 'FLYING':
+                        planeTotal = planeTotal + disKm
                 except KeyError:
                     continue
         break
@@ -65,16 +80,21 @@ while True:
         month = input('Select a year ')
         continue
       
-durRes = str(datetime.timedelta(minutes=durTotal))
+durRes = str(datetime.timedelta(minutes=durTotal)) #converts into easily readable datetime string
 durBigRes = str(datetime.timedelta(minutes=durBig))
+carLitres = fuelData.fuelUsed(vehTotal)
+planeLitres = fuelData.planeFuelUsed(planeTotal)
 
 #end = datetime.datetime.fromtimestamp(endTime/1000, tz=None) 
 
-print('\033[1m' + month.capitalize() + year + ' Stats' + '\033[0m')
+print('\033[1m' + month.capitalize() +' ' + year + ' Stats' + '\033[0m')
 print('Distance Travelled:', round(disTotal, 1),'km') 
-print('Furthest trip:', round(disBig, 1),'km ---> on', startDateDis)
+print('Furthest trip:', round(disBig, 1),'km ---> on', startDateDis, 'via', activities[activityTypeDis].lower())
 print('\n')
 print('Total Time Travelling:',  durRes, 'Hours')
-print('Longest Trip: ', durBigRes, 'Hours ---> on', startDateDur)
-
+print('Longest Trip:', durBigRes, 'Hours ---> on', startDateDur, 'via', activities[activityTypeDis].lower())
+print('\n')
+print('Approximate car fuel used:', round(carLitres,1), 'Litres')
+if planeTotal > 0:
+    print('Approximate plane fuel used:', round(planeLitres, 1), 'Litres' )
 
