@@ -3,9 +3,7 @@ import datetime
 import fuelData
 
 year = input('Select a year ')
-#year = '2020'
 month = input('Select a month ')
-#month = 'april'
 print('\n')
 month = month.upper()
 disTotal = 0
@@ -15,17 +13,21 @@ durBig = 0
 vehTotal = 0
 x = 1
 planeTotal = 0
+#convert strings for output
 activities = {"IN_PASSENGER_VEHICLE":'car',
 "WALKING": 'walking',
 "CYCLING": 'cycling',
 "IN_BUS": 'bus',
 "FLYING": 'flying',
-"IN_SUBWAY": 'skytrain'}
+"IN_SUBWAY": 'skytrain',
+"IN_TRAM": 'tram'}
 
+#loop for try except blocks that repeats unitl succesful 
 while True:
+    #august 2018 data incomplete for Bryson's map data
     if year == '2018' and month == 'AUGUST':
-        print('\n')
         print('Data not available for that month')
+        print('\n')
         year = input('Select a year ')
         month = input('Select a month ')
         month = month.upper()
@@ -40,14 +42,14 @@ while True:
         #goes through each activity in timeline. either activitySegment or placeVisit
         for items in obj['timelineObjects']:
             #for activity segments finds total distance, total duration, longest distnce, longest duration
-            if 'activitySegment'  in items:
+            if 'activitySegment' in items:
                 try:
-                    distance = items['activitySegment']['distance'] #gives dita
+                    distance = items['activitySegment']['distance'] #gives distance
                     disKm = float(distance/1000) #converts metres into kilometres
         
                     startTime = int(items['activitySegment']['duration']['startTimestampMs'])
                     endTime = int(items['activitySegment']['duration']['endTimestampMs'])
-                    durMin = float((((endTime - startTime)/1000)/60)) #converts time into minutes
+                    durMin = float((((endTime - startTime)/1000)/60)) #converts duration into minutes
 
                     #eliminates any non flying activities over 8 hours long because they are probably a glitch
                     if items['activitySegment']['activityType'] != 'FLYING' and durMin > 480:
@@ -81,7 +83,7 @@ while True:
                 except KeyError:
                     continue
         break
-    except:
+    except: #if error rerun loop
         print('Month or year unavailable or typed incorrectly')
         print('\n')
         year = input('Select a year ')
@@ -91,12 +93,10 @@ while True:
       
 durRes = str(datetime.timedelta(minutes=durTotal)) #converts into easily readable datetime string
 durBigRes = str(datetime.timedelta(minutes=durBig))
-vehLitres = fuelData.fuelUsed(vehTotal)
-planeLitres = fuelData.planeFuelUsed(planeTotal)
-totalCarb = fuelData.carbonUsed(vehLitres,planeLitres)
-
-#end = datetime.datetime.fromtimestamp(endTime/1000, tz=None) 
-
+vehLitres = fuelData.fuelUsed(vehTotal) #function call from fuelData file. returns gas used in a car that month
+planeLitres = fuelData.planeFuelUsed(planeTotal) #returns gas used in a plane that month
+totalCarb = fuelData.carbonUsed(vehLitres,planeLitres) #returns total kg of carbon ouput that month
+ 
 print('\033[1m' + month.capitalize() +' ' + year + ' Stats' + '\033[0m')
 print('Distance Travelled:', round(disTotal, 1),'km') 
 print('Furthest trip:', round(disBig, 1),'km ---> on', startDateDis, 'via', activities[activityTypeDis].lower())
@@ -108,4 +108,9 @@ print('Approximate car fuel used:', round(vehLitres,1), 'Litres')
 if planeTotal > 0:
     print('Approximate plane fuel used:', round(planeLitres, 1), 'Litres' )
 print('Approximate carbon used:', round(totalCarb, 1), 'kg of CO2')
+try: #accounts for average gas prices not available while google stats are available for a given month
+    gasCost = fuelData.gasPrices(month, year, vehLitres)
+    print('Approximate cost of car gas used: ' + '$' + str(round(gasCost, 1)), )
+except: 
+    print('Gas cost not available for chosen month')
 
