@@ -34,7 +34,7 @@ while True:
         continue
     try:
         #file path specific to my files and Google takeout. Loads into readable json file
-        fileName = 'GoogleMaps API/MapsTakeoutNov2020/Takeout/Location History/Semantic Location History/' + year + '/' + year + '_' + month + '.json'
+        fileName = 'C:/Users/fitcr/MyPythonScripts/py4e/GoogleMaps API/MapsTakeoutNov2020/Takeout/Location History/Semantic Location History/' + year + '/' + year + '_' + month + '.json'
         with open(fileName,'r', encoding='utf8') as file:
             data = file.read()
         obj = json.loads(data)
